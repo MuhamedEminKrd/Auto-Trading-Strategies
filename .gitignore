@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+.venv/
+
+# Excel raporları (lokal çıktı, GitHub'a gitmez)
+*.xlsx
+*.xls
+
+# VS Code
+.vscode/
+
+# Ortam değişkenleri
+.env
