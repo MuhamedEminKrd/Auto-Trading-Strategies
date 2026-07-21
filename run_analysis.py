@@ -16,6 +16,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
 from strategies.stocks.single_ma import single_ma, SingleMARequest
 from strategies.stocks.two_ma import two_ma, TwoMARequest
 from strategies.stocks.three_ma import three_ma, ThreeMARequest
+from strategies.stocks.channel import channel, ChannelRequest
 from signals_adapter import normalize_signals
 
 # ── Ayarlar ──────────────────────────────────────────
@@ -32,6 +33,7 @@ STRATEGIES = {
     "single_ma": {"period": 20},
     "two_ma":    {"short_period": 10, "long_period": 50},
     "three_ma":  {"short_period": 5, "medium_period": 20, "long_period": 50},
+     "channel":   {"lookback": 20, "channel_type": "donchian"},
 }
 # ─────────────────────────────────────────────────────
 
@@ -73,6 +75,13 @@ def generate_signals(prices_list: list, strategy_name: str, params: dict, ticker
                     long_period=params["long_period"]
                 )
                 res = three_ma(req)
+            elif strategy_name == "channel":
+                req = ChannelRequest(
+                    prices=prices_slice,
+                    lookback=params["lookback"],
+                    channel_type=params["channel_type"]
+                )
+                res = channel(req)
             else:
                 signals.append(0)
                 continue
