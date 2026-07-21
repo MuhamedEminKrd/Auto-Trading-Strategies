@@ -10,7 +10,7 @@ import matplotlib
 matplotlib.use("Agg")  # Ekran açmadan PNG kaydeder
 import matplotlib.pyplot as plt
 
-# Strateji klasörünün Python'un arama yoluna ekliyoruz
+# Strateji klasörünü Python'un arama yoluna ekliyoruz
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
 
 from strategies.stocks.single_ma import single_ma, SingleMARequest
@@ -86,8 +86,8 @@ def generate_signals(prices_list: list, strategy_name: str, params: dict, ticker
     return signals
 
 
-def run_backtest_and_save_png(prices: pd.Series, signals: list, ticker: str, strategy_name: str, output_dir: str):
-    """VectorBT backtest çalıştırır ve equity grafiğini PNG olarak kaydeder."""
+def run_backtest_and_save_png(prices: pd.Series, signals: list, ticker: str, strategy_name: str, output_dir: str) -> dict:
+    """VectorBT backtest çalıştırır, PNG kaydeder ve metrikleri Sözlük(dict) olarak döndürür."""
     signals_series = pd.Series(signals, index=prices.index)
 
     entries       = (signals_series == 1)
@@ -106,7 +106,7 @@ def run_backtest_and_save_png(prices: pd.Series, signals: list, ticker: str, str
         freq="1d"
     )
 
-    # Portföy değerini zamana göre çiz ve PNG kaydet
+    # 1) Grafik Çiz ve Kaydet
     fig, ax = plt.subplots(figsize=(12, 5))
     portfolio.value().plot(ax=ax)
     ax.set_title(f"{ticker} — {strategy_name}")
@@ -118,15 +118,29 @@ def run_backtest_and_save_png(prices: pd.Series, signals: list, ticker: str, str
     fig.savefig(png_path, dpi=100, bbox_inches="tight")
     plt.close(fig)
 
-    return portfolio
+    # 2) Metrikleri Hesapla
+    metrics = {
+        "Hisse": ticker,
+        "Strateji": strategy_name,
+        "Getiri (%)": round(portfolio.total_return() * 100, 2),
+        "Max Kayip (%)": round(portfolio.max_drawdown() * -100, 2),
+        "Sharpe Orani": round(portfolio.sharpe_ratio(), 2),
+        "Calmar Orani": round(portfolio.calmar_ratio(), 2),
+        "Kar Faktoru": round(portfolio.trades.profit_factor(), 2),
+        "Islem Sayisi": portfolio.trades.count()
+    }
+    return metrics
 
 
 def main():
     print(f"\n{'='*55}")
-    print(f"  DOW30 ANALİZ SİSTEMİ")
+    print(f"  DOW30 ANALİZ SİSTEMİ (FINAL V1.0)")
     print(f"  Tarih   : {START_DATE} -> {END_DATE}")
     print(f"  Hisse   : {len(DOW30_TICKERS)}  |  Strateji: {len(STRATEGIES)}")
     print(f"{'='*55}\n")
+
+    # Tüm metrikleri toplayacağımız devasa liste
+    all_results = []
 
     for ticker in DOW30_TICKERS:
         print(f"[{ticker}] işleniyor...")
@@ -138,12 +152,24 @@ def main():
 
         for strategy_name, params in STRATEGIES.items():
             signals = generate_signals(prices_list, strategy_name, params, ticker)
-            run_backtest_and_save_png(prices, signals, ticker, strategy_name, output_dir)
+            
+            # Fonksiyon artık bize metrikleri (sözlük olarak) döndürüyor
+            metrics = run_backtest_and_save_png(prices, signals, ticker, strategy_name, output_dir)
+            
+            # Bu metrikleri ana listemize ekliyoruz
+            all_results.append(metrics)
+            
             print(f"  ✓ {strategy_name}.png kaydedildi")
 
         print()
 
-    print("Aşama 2 tamamlandı: Tüm PNG grafikleri kaydedildi!")
+    # ── CSV KAYDETME İŞLEMİ ───────────────────────────────
+    print("[CSV] Tablo oluşturuluyor...")
+    df_results = pd.DataFrame(all_results)
+    csv_path = os.path.join("results", "summary.csv")
+    df_results.to_csv(csv_path, index=False)
+    
+    print(f"[BAŞARILI] Aşama 3 tamamlandı! Özet tablo kaydedildi: {csv_path}\n")
 
 
 if __name__ == "__main__":
