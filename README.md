@@ -1,14 +1,37 @@
-# 151 Trading Strategies API
+# 151 Trading Strategies & DOW30 Backtest Engine
 
-FastAPI implementation of non-options trading strategies from the paper "151 Trading Strategies" by Zura Kakushadze and Juan Andrés Serur.
+FastAPI implementation of non-options trading strategies from the paper "151 Trading Strategies" by Zura Kakushadze and Juan Andrés Serur, **coupled with a VectorBT-powered DOW30 Backtesting Engine.**
 
-## Installation
+## 🚀 NEW: DOW30 Backtest Engine (`run_analysis.py`)
 
+A fully automated backtesting system that tests technical trading strategies across all 30 components of the Dow Jones Industrial Average.
+
+### Features:
+- Automatically downloads historical data for 30 DOW stocks via `yfinance`.
+- Simulates trading strategies using `vectorbt`.
+- Generates equity curve charts (`.png`) for every stock and strategy combination.
+- Outputs a comprehensive `summary.csv` containing metrics like Total Return, Max Drawdown, Sharpe Ratio, Calmar Ratio, and Profit Factor.
+
+### Currently Supported Strategies (Single-Asset):
+- `single_ma` (Single Moving Average)
+- `two_ma` (Two Moving Averages)
+- `three_ma` (Three Moving Averages)
+- `channel` (Donchian/Bollinger Channel)
+
+### How to Run the Analysis:
 ```bash
 pip install -r requirements.txt
+python run_analysis.py
 ```
+*(Check the generated `results/` directory for PNGs and the `summary.csv` report).*
 
-## Running the Server
+---
+
+## 🌐 API Server (68 Implemented Strategies)
+
+The core repository contains 68 strategy algorithms structured as FastAPI endpoints. 
+
+### Running the API Server:
 
 ```bash
 cd src
