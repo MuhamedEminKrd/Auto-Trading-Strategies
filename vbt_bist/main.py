@@ -134,3 +134,4 @@ for HISSE_KODU in HISSE_LISTESI:
 print(f"\n{'='*50}")
 print("  TÜM HİSSELERİN ANALİZİ BAŞARIYLA TAMAMLANDI!")
 print(f"{'='*50}\n")
+#test mesajı
