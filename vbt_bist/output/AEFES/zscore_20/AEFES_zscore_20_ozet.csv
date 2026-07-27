@@ -1,29 +1,29 @@
 ,AEFES.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,9013.578113461383
-Total Return [%],-9.864218865386173
-Benchmark Return [%],-23.60887821501404
+End Value,8743.173083056836
+Total Return [%],-12.568269169431643
+Benchmark Return [%],-18.72915698301474
 Max Gross Exposure [%],100.0
-Total Fees Paid,187.4970715081245
-Max Drawdown [%],25.036650445642472
-Max Drawdown Duration,481 days 00:00:00
-Total Trades,11
-Total Closed Trades,11
+Total Fees Paid,126.86941504842525
+Max Drawdown [%],25.472041203360448
+Max Drawdown Duration,459 days 00:00:00
+Total Trades,7
+Total Closed Trades,7
 Total Open Trades,0
 Open Trade PnL,0.0
-Win Rate [%],54.54545454545454
-Best Trade [%],10.58184473582591
-Worst Trade [%],-10.182134735966303
-Avg Winning Trade [%],6.01577092177282
-Avg Losing Trade [%],-8.656207274966768
-Avg Winning Trade Duration,8 days 12:00:00
-Avg Losing Trade Duration,7 days 00:00:00
-Profit Factor,0.7486630264745069
-Expectancy,-89.67471695805637
-Sharpe Ratio,-0.2317360004903928
-Calmar Ratio,-0.2888328793520055
-Omega Ratio,0.9218986020636611
-Sortino Ratio,-0.32009073142631
+Win Rate [%],42.857142857142854
+Best Trade [%],10.581851872312358
+Worst Trade [%],-14.828106863486678
+Avg Winning Trade [%],6.982564462635543
+Avg Losing Trade [%],-7.9258725363074145
+Avg Winning Trade Duration,8 days 16:00:00
+Avg Losing Trade Duration,26 days 12:00:00
+Profit Factor,0.5892638631016284
+Expectancy,-179.54670242045194
+Sharpe Ratio,-0.24435005721917377
+Calmar Ratio,-0.3645723674980884
+Omega Ratio,0.934719284936936
+Sortino Ratio,-0.3460372772347326

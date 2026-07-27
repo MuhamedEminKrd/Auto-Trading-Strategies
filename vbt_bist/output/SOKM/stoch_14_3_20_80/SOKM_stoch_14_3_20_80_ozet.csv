@@ -1,29 +1,29 @@
 ,SOKM.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,9837.543699633354
-Total Return [%],-1.6245630036664622
-Benchmark Return [%],-15.556005551041007
+End Value,10070.448571618288
+Total Return [%],0.7044857161828805
+Benchmark Return [%],-15.184940408809556
 Max Gross Exposure [%],100.0
-Total Fees Paid,208.49535537717512
-Max Drawdown [%],28.9913879878712
+Total Fees Paid,167.6571019248734
+Max Drawdown [%],29.183015390447686
 Max Drawdown Duration,402 days 00:00:00
-Total Trades,13
-Total Closed Trades,12
-Total Open Trades,1
-Open Trade PnL,1007.3465285005786
-Win Rate [%],41.66666666666667
-Best Trade [%],24.196681387581492
-Worst Trade [%],-13.125189323480274
-Avg Winning Trade [%],5.697289904065206
-Avg Losing Trade [%],-5.206218091975847
-Avg Winning Trade Duration,19 days 00:00:00
-Avg Losing Trade Duration,12 days 00:00:00
-Profit Factor,0.6524011363044457
-Expectancy,-97.48356907226884
-Sharpe Ratio,0.09475161882841404
-Calmar Ratio,-0.04059314723727705
-Omega Ratio,1.0212522800487793
-Sortino Ratio,0.13501692526059905
+Total Trades,10
+Total Closed Trades,10
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],60.0
+Best Trade [%],24.196681387581496
+Worst Trade [%],-24.886502499773318
+Avg Winning Trade [%],5.668828698706899
+Avg Losing Trade [%],-6.719836133022855
+Avg Winning Trade Duration,23 days 04:00:00
+Avg Losing Trade Duration,21 days 00:00:00
+Profit Factor,1.0266235018980057
+Expectancy,7.044857161828759
+Sharpe Ratio,0.16513140120995493
+Calmar Ratio,0.017500411382103093
+Omega Ratio,1.034059746331686
+Sortino Ratio,0.23815475860559926

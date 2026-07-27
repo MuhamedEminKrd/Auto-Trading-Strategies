@@ -1,29 +1,29 @@
 ,CWENE.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,10442.190098911957
-Total Return [%],4.4219009891195675
-Benchmark Return [%],35.929528296169025
+End Value,11359.49090059705
+Total Return [%],13.594909005970493
+Benchmark Return [%],40.02707121770812
 Max Gross Exposure [%],100.0
-Total Fees Paid,191.51818420623331
-Max Drawdown [%],32.66296861979302
-Max Drawdown Duration,276 days 00:00:00
+Total Fees Paid,197.46522793521063
+Max Drawdown [%],34.18891888764681
+Max Drawdown Duration,261 days 00:00:00
 Total Trades,10
-Total Closed Trades,10
-Total Open Trades,0
-Open Trade PnL,0.0
-Win Rate [%],30.0
-Best Trade [%],48.23997699987822
-Worst Trade [%],-10.369457770558174
-Avg Winning Trade [%],23.97712563728507
-Avg Losing Trade [%],-7.770677295481154
-Avg Winning Trade Duration,68 days 16:00:00
-Avg Losing Trade Duration,4 days 06:51:25.714285
-Profit Factor,1.0811722987604129
-Expectancy,44.2190098911957
-Sharpe Ratio,0.28551672493120567
-Calmar Ratio,0.09725991616406539
-Omega Ratio,1.0619976692525739
-Sortino Ratio,0.4419547685989637
+Total Closed Trades,9
+Total Open Trades,1
+Open Trade PnL,-757.504338737248
+Win Rate [%],44.44444444444444
+Best Trade [%],48.23997699987825
+Worst Trade [%],-12.211290311658962
+Avg Winning Trade [%],18.004132895600836
+Avg Losing Trade [%],-8.010148153761246
+Avg Winning Trade Duration,59 days 18:00:00
+Avg Losing Trade Duration,5 days 04:48:00
+Profit Factor,1.4810644718973371
+Expectancy,235.22169325936642
+Sharpe Ratio,0.4278378374691872
+Calmar Ratio,0.2834540617412883
+Omega Ratio,1.0875722096119231
+Sortino Ratio,0.6732911155200525

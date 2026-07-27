@@ -1,29 +1,29 @@
 ,SASA.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,8907.409806805754
-Total Return [%],-10.925901931942462
-Benchmark Return [%],-53.68058355180675
+End Value,8543.537485993947
+Total Return [%],-14.564625140060524
+Benchmark Return [%],-52.48767084171693
 Max Gross Exposure [%],100.0
-Total Fees Paid,376.88926655309007
-Max Drawdown [%],34.81632996485372
-Max Drawdown Duration,489 days 00:00:00
-Total Trades,24
-Total Closed Trades,24
+Total Fees Paid,191.07946654284407
+Max Drawdown [%],40.08896533526995
+Max Drawdown Duration,478 days 00:00:00
+Total Trades,12
+Total Closed Trades,12
 Total Open Trades,0
 Open Trade PnL,0.0
-Win Rate [%],37.5
-Best Trade [%],35.503399258685995
-Worst Trade [%],-11.477246842903178
-Avg Winning Trade [%],12.04292538615362
-Avg Losing Trade [%],-7.021390988487205
-Avg Winning Trade Duration,13 days 08:00:00
-Avg Losing Trade Duration,8 days 12:48:00
-Profit Factor,0.8762719178732188
-Expectancy,-45.52459138309342
-Sharpe Ratio,-0.033538104714717604
-Calmar Ratio,-0.23042270296017617
-Omega Ratio,0.9933947607058486
-Sortino Ratio,-0.05297610506415063
+Win Rate [%],50.0
+Best Trade [%],23.97436335288242
+Worst Trade [%],-21.95638607781189
+Avg Winning Trade [%],11.926976877490569
+Avg Losing Trade [%],-12.301633500443938
+Avg Winning Trade Duration,15 days 20:00:00
+Avg Losing Trade Duration,33 days 12:00:00
+Profit Factor,0.7796634223019748
+Expectancy,-121.37187616717114
+Sharpe Ratio,-0.0846326449107939
+Calmar Ratio,-0.26925567241837545
+Omega Ratio,0.9848594639437792
+Sortino Ratio,-0.1322928348198095

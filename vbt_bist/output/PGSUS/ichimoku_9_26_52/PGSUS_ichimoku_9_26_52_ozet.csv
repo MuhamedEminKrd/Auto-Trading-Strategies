@@ -1,29 +1,29 @@
 ,PGSUS.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,6512.453140664656
-Total Return [%],-34.875468593353446
-Benchmark Return [%],-31.087417439865327
+End Value,6460.5096061204085
+Total Return [%],-35.39490393879591
+Benchmark Return [%],-28.3842794759826
 Max Gross Exposure [%],100.0
-Total Fees Paid,131.27454331939725
-Max Drawdown [%],38.36227000366419
-Max Drawdown Duration,340 days 00:00:00
+Total Fees Paid,130.78311959491066
+Max Drawdown [%],38.731357223984105
+Max Drawdown Duration,341 days 00:00:00
 Total Trades,8
 Total Closed Trades,8
 Total Open Trades,0
 Open Trade PnL,0.0
 Win Rate [%],12.5
-Best Trade [%],5.53098807044973
-Worst Trade [%],-8.75629285293879
-Avg Winning Trade [%],5.53098807044973
-Avg Losing Trade [%],-6.640564245040595
+Best Trade [%],5.530988070449696
+Worst Trade [%],-8.938980267232917
+Avg Winning Trade [%],5.530988070449696
+Avg Losing Trade [%],-6.745180118318681
 Avg Winning Trade Duration,51 days 00:00:00
 Avg Losing Trade Duration,10 days 17:08:34.285714
-Profit Factor,0.1203940054869372
-Expectancy,-435.9433574169184
-Sharpe Ratio,-1.1947939318723422
-Calmar Ratio,-0.6947825778491867
-Omega Ratio,0.7055029145709791
-Sortino Ratio,-1.5003229940246998
+Profit Factor,0.11862765789455762
+Expectancy,-442.4362992349487
+Sharpe Ratio,-1.2148258627583928
+Calmar Ratio,-0.7014532691452898
+Omega Ratio,0.7014654703962149
+Sortino Ratio,-1.5211966463278703

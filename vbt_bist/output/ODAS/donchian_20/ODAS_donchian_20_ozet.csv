@@ -1,29 +1,29 @@
 ,ODAS.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,13096.326291783082
-Total Return [%],30.963262917830814
-Benchmark Return [%],-0.8148974805679998
+End Value,11770.174257511557
+Total Return [%],17.701742575115567
+Benchmark Return [%],3.3452776200663115
 Max Gross Exposure [%],100.0
-Total Fees Paid,65.52323570428163
-Max Drawdown [%],23.477231392221018
-Max Drawdown Duration,351 days 00:00:00
+Total Fees Paid,61.44282577248727
+Max Drawdown [%],32.25962289044013
+Max Drawdown Duration,381 days 00:00:00
 Total Trades,4
 Total Closed Trades,3
 Total Open Trades,1
-Open Trade PnL,4169.6409061993345
+Open Trade PnL,3867.9897788338076
 Win Rate [%],33.33333333333333
-Best Trade [%],0.8671526535124194
-Worst Trade [%],-11.421575788730607
-Avg Winning Trade [%],0.8671526535124194
-Avg Losing Trade [%],-5.761434358276274
+Best Trade [%],0.8671526535124239
+Worst Trade [%],-21.599051761409267
+Avg Winning Trade [%],0.8671526535124239
+Avg Losing Trade [%],-10.850172344615604
 Avg Winning Trade Duration,35 days 00:00:00
-Avg Losing Trade Duration,19 days 12:00:00
-Profit Factor,0.06666762228055137
-Expectancy,-357.77153813875077
-Sharpe Ratio,0.7207360382592533
-Calmar Ratio,0.9169264685739232
-Omega Ratio,1.1756752875037293
-Sortino Ratio,1.0523819689946514
+Avg Losing Trade Duration,20 days 12:00:00
+Profit Factor,0.031337741728760186
+Expectancy,-699.2718404407501
+Sharpe Ratio,0.5047507876709614
+Calmar Ratio,0.3891744637369941
+Omega Ratio,1.1192662014709376
+Sortino Ratio,0.7178912044932785

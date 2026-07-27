@@ -1,29 +1,29 @@
 ,ENKAI.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,10937.542586220816
-Total Return [%],9.375425862208157
-Benchmark Return [%],111.73716359156556
+End Value,12863.72842587472
+Total Return [%],28.637284258747204
+Benchmark Return [%],107.63103683229778
 Max Gross Exposure [%],100.0
-Total Fees Paid,251.21189484444685
-Max Drawdown [%],18.54571770966433
-Max Drawdown Duration,117 days 00:00:00
-Total Trades,13
-Total Closed Trades,12
+Total Fees Paid,198.85198940041636
+Max Drawdown [%],12.946289105001998
+Max Drawdown Duration,94 days 00:00:00
+Total Trades,9
+Total Closed Trades,8
 Total Open Trades,1
-Open Trade PnL,-354.0390378873326
-Win Rate [%],58.333333333333336
-Best Trade [%],16.343830546100612
-Worst Trade [%],-9.31202894780837
-Avg Winning Trade [%],7.281713204884935
-Avg Losing Trade [%],-6.961495825414355
-Avg Winning Trade Duration,14 days 06:51:25.714285
-Avg Losing Trade Duration,12 days 00:00:00
-Profit Factor,1.3596019102107129
-Expectancy,107.63180200901235
-Sharpe Ratio,0.3789620942079222
-Calmar Ratio,0.36081503541801746
-Omega Ratio,1.0881101198204857
-Sortino Ratio,0.5931503992383759
+Open Trade PnL,-1416.117656863591
+Win Rate [%],75.0
+Best Trade [%],16.343823817187335
+Worst Trade [%],-2.127552572509223
+Avg Winning Trade [%],7.025190515019529
+Avg Losing Trade [%],-2.0759439158692614
+Avg Winning Trade Duration,16 days 20:00:00
+Avg Losing Trade Duration,22 days 12:00:00
+Profit Factor,10.373437727729081
+Expectancy,534.9807603422887
+Sharpe Ratio,0.8256493365275895
+Calmar Ratio,1.5486951427878912
+Omega Ratio,1.194588272787145
+Sortino Ratio,1.3176773154073504

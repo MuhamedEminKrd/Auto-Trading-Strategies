@@ -1,29 +1,29 @@
 ,TCELL.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,6631.886927988814
-Total Return [%],-33.68113072011186
-Benchmark Return [%],3.567400775724927
+End Value,5861.201626579785
+Total Return [%],-41.38798373420215
+Benchmark Return [%],5.332762452025697
 Max Gross Exposure [%],100.0
-Total Fees Paid,222.876457086011
-Max Drawdown [%],43.16820675176796
-Max Drawdown Duration,373 days 00:00:00
+Total Fees Paid,201.21510072768876
+Max Drawdown [%],49.77257992561014
+Max Drawdown Duration,374 days 00:00:00
 Total Trades,13
 Total Closed Trades,13
 Total Open Trades,0
 Open Trade PnL,0.0
 Win Rate [%],15.384615384615385
-Best Trade [%],10.73424751642848
-Worst Trade [%],-9.324006996321003
-Avg Winning Trade [%],9.162379932970092
-Avg Losing Trade [%],-5.151518614002091
+Best Trade [%],10.73424751642847
+Worst Trade [%],-18.058446475110614
+Avg Winning Trade [%],9.16238452538613
+Avg Losing Trade [%],-6.131576737757364
 Avg Winning Trade Duration,58 days 00:00:00
-Avg Losing Trade Duration,14 days 06:32:43.636363
-Profit Factor,0.31995684588942724
-Expectancy,-259.0856209239372
-Sharpe Ratio,-0.904564707798993
-Calmar Ratio,-0.5949672852174377
-Omega Ratio,0.8424583456358821
-Sortino Ratio,-1.1749786039776733
+Avg Losing Trade Duration,14 days 10:54:32.727272
+Profit Factor,0.2649161534917237
+Expectancy,-318.3691056477085
+Sharpe Ratio,-1.1540099779274906
+Calmar Ratio,-0.6456536720286352
+Omega Ratio,0.800553123195903
+Sortino Ratio,-1.4546138858643523

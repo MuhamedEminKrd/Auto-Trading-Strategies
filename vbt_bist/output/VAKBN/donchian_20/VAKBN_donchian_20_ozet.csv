@@ -1,29 +1,29 @@
 ,VAKBN.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,11188.507467964837
-Total Return [%],11.885074679648369
-Benchmark Return [%],35.84905417872566
+End Value,10047.197477786216
+Total Return [%],0.47197477786216036
+Benchmark Return [%],39.634705280229454
 Max Gross Exposure [%],100.0
-Total Fees Paid,154.5269313128215
-Max Drawdown [%],29.697620794995544
+Total Fees Paid,150.8240551302735
+Max Drawdown [%],36.74246508204733
 Max Drawdown Duration,107 days 00:00:00
 Total Trades,7
 Total Closed Trades,7
 Total Open Trades,0
 Open Trade PnL,0.0
 Win Rate [%],42.857142857142854
-Best Trade [%],31.575243205475896
-Worst Trade [%],-11.313570687910323
-Avg Winning Trade [%],16.371257143233386
-Avg Losing Trade [%],-7.80628863645242
+Best Trade [%],31.57524320547588
+Worst Trade [%],-16.507755185287927
+Avg Winning Trade [%],16.371257143233382
+Avg Losing Trade [%],-10.177094398172489
 Avg Winning Trade Duration,78 days 16:00:00
-Avg Losing Trade Duration,17 days 18:00:00
-Profit Factor,1.31870412227615
-Expectancy,169.78678113783383
-Sharpe Ratio,0.4070804922272896
-Calmar Ratio,0.28471625840671483
-Omega Ratio,1.0759064199043982
-Sortino Ratio,0.5700876665734574
+Avg Losing Trade Duration,21 days 18:00:00
+Profit Factor,1.0097031808421
+Expectancy,6.7424968266022915
+Sharpe Ratio,0.1890083673359576
+Calmar Ratio,0.00931525336372658
+Omega Ratio,1.0333992745705782
+Sortino Ratio,0.26175223611553966

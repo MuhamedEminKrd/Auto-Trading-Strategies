@@ -4,3 +4,4 @@ yfinance # Veri çekmek için
 vectorbt # Vektörel Backtest için
 plotly # Görselleştirmek için
 kaleido # Plotly grafiklerini kaydetmek için
+openpyxl # Pandas DataFrame'lerini Excel (.xlsx) olarak kaydetmek için

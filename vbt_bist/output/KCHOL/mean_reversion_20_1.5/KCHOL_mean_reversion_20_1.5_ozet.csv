@@ -1,29 +1,29 @@
 ,KCHOL.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,11340.437222544682
-Total Return [%],13.404372225446822
-Benchmark Return [%],-4.429885054587102
+End Value,11419.389493120643
+Total Return [%],14.193894931206433
+Benchmark Return [%],-1.140974604852052
 Max Gross Exposure [%],100.0
-Total Fees Paid,249.33655005248883
-Max Drawdown [%],26.422820536456644
-Max Drawdown Duration,451 days 00:00:00
-Total Trades,13
-Total Closed Trades,13
+Total Fees Paid,163.15778647092213
+Max Drawdown [%],24.74818384556155
+Max Drawdown Duration,248 days 00:00:00
+Total Trades,8
+Total Closed Trades,8
 Total Open Trades,0
 Open Trade PnL,0.0
-Win Rate [%],53.84615384615385
-Best Trade [%],12.44649206885293
-Worst Trade [%],-9.660891576986174
-Avg Winning Trade [%],8.51013081210279
-Avg Losing Trade [%],-7.040534847062645
-Avg Winning Trade Duration,10 days 20:34:17.142857
-Avg Losing Trade Duration,21 days 12:00:00
-Profit Factor,1.3315941706359675
-Expectancy,103.1105555803602
-Sharpe Ratio,0.46900777116247605
-Calmar Ratio,0.3602131973958538
-Omega Ratio,1.1046469682478586
-Sortino Ratio,0.737396771230477
+Win Rate [%],75.0
+Best Trade [%],10.059477557679255
+Worst Trade [%],-11.2052574181661
+Avg Winning Trade [%],4.439443381339356
+Avg Losing Trade [%],-5.851859185303302
+Avg Winning Trade Duration,22 days 16:00:00
+Avg Losing Trade Duration,37 days 00:00:00
+Profit Factor,2.1911227978907095
+Expectancy,177.4236866400808
+Sharpe Ratio,0.48830523653677743
+Calmar Ratio,0.40853095281430835
+Omega Ratio,1.1085710805045252
+Sortino Ratio,0.7678836387673528

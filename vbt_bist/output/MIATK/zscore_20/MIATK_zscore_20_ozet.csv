@@ -1,29 +1,29 @@
 ,MIATK.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,6736.3523449281365
-Total Return [%],-32.63647655071863
-Benchmark Return [%],-48.444445379849256
+End Value,7814.771396074254
+Total Return [%],-21.85228603925746
+Benchmark Return [%],-43.12399265268425
 Max Gross Exposure [%],100.0
-Total Fees Paid,143.49347076158156
-Max Drawdown [%],32.63647655071863
-Max Drawdown Duration,472 days 00:00:00
-Total Trades,9
-Total Closed Trades,9
+Total Fees Paid,126.3283162899666
+Max Drawdown [%],34.48936485004243
+Max Drawdown Duration,473 days 00:00:00
+Total Trades,8
+Total Closed Trades,8
 Total Open Trades,0
 Open Trade PnL,0.0
-Win Rate [%],33.33333333333333
-Best Trade [%],7.9025033241383
-Worst Trade [%],-13.221933575515449
-Avg Winning Trade [%],7.107100012011193
-Avg Losing Trade [%],-9.51699730128401
-Avg Winning Trade Duration,7 days 00:00:00
-Avg Losing Trade Duration,10 days 08:00:00
-Profit Factor,0.32802603497919997
-Expectancy,-362.627517230207
-Sharpe Ratio,-1.121900441152292
-Calmar Ratio,-0.7610934012091672
-Omega Ratio,0.6715114735521672
-Sortino Ratio,-1.5241915952678902
+Win Rate [%],37.5
+Best Trade [%],6.873630233120305
+Worst Trade [%],-12.598506044093885
+Avg Winning Trade [%],5.546363582750897
+Avg Losing Trade [%],-7.771929499135324
+Avg Winning Trade Duration,7 days 08:00:00
+Avg Losing Trade Duration,27 days 14:24:00
+Profit Factor,0.35908845014383134
+Expectancy,-273.15357549071854
+Sharpe Ratio,-0.43503366496267537
+Calmar Ratio,-0.47501303469790257
+Omega Ratio,0.8981611999203308
+Sortino Ratio,-0.6461515727696002

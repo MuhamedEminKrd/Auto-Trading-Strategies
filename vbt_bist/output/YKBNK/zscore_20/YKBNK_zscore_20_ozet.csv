@@ -1,29 +1,29 @@
 ,YKBNK.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,9009.295742581286
-Total Return [%],-9.907042574187145
-Benchmark Return [%],9.736845490014435
+End Value,11776.554948217117
+Total Return [%],17.765549482171174
+Benchmark Return [%],12.458576154780454
 Max Gross Exposure [%],100.0
-Total Fees Paid,122.64347170695564
-Max Drawdown [%],21.535422754726262
-Max Drawdown Duration,453 days 00:00:00
+Total Fees Paid,142.4746749349557
+Max Drawdown [%],15.727868372573964
+Max Drawdown Duration,235 days 00:00:00
 Total Trades,7
 Total Closed Trades,7
 Total Open Trades,0
 Open Trade PnL,0.0
-Win Rate [%],42.857142857142854
-Best Trade [%],13.240022273365968
-Worst Trade [%],-10.455506603533145
-Avg Winning Trade [%],9.021540911769133
-Avg Losing Trade [%],-8.638200342315638
-Avg Winning Trade Duration,8 days 00:00:00
-Avg Losing Trade Duration,11 days 06:00:00
-Profit Factor,0.6903930221161935
-Expectancy,-141.5291796312448
-Sharpe Ratio,-0.28771439008017907
-Calmar Ratio,-0.33727063967827947
-Omega Ratio,0.8989915844743012
-Sortino Ratio,-0.41367094631280016
+Win Rate [%],71.42857142857143
+Best Trade [%],13.24002227336598
+Worst Trade [%],-7.266407339714688
+Avg Winning Trade [%],6.262636855168675
+Avg Losing Trade [%],-6.535524996156308
+Avg Winning Trade Duration,10 days 19:12:00
+Avg Losing Trade Duration,24 days 12:00:00
+Profit Factor,2.2826749604874634
+Expectancy,253.79356403101653
+Sharpe Ratio,0.6173960752229032
+Calmar Ratio,0.8010554463442008
+Omega Ratio,1.2051877400500703
+Sortino Ratio,0.9826811572804952

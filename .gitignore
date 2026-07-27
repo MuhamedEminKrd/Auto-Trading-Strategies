@@ -8,12 +8,14 @@ __pycache__/
 venv/
 .venv/
 
-# Excel raporları (lokal çıktı, GitHub'a gitmez)
-*.xlsx
-*.xls
-
+# Çıktı Klasöründeki Ağır Dosyaları Yoksay (GitHub'ı çökertmemek için)
+vbt_bist/output/**/*.png
+vbt_bist/output/**/*.html
+vbt_bist/output/**/*.csv
 # VS Code
 .vscode/
 
 # Ortam değişkenleri
 .env
+
+Staj_Raporlari

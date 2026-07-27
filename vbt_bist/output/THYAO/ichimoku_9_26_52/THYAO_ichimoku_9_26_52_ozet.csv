@@ -1,29 +1,29 @@
 ,THYAO.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,7569.460627533315
-Total Return [%],-24.305393724666846
-Benchmark Return [%],4.715669991903271
+End Value,8131.241440878194
+Total Return [%],-18.68758559121806
+Benchmark Return [%],13.421142419179532
 Max Gross Exposure [%],100.0
-Total Fees Paid,135.35747726921863
-Max Drawdown [%],30.838540576624794
+Total Fees Paid,119.71961222140061
+Max Drawdown [%],31.561976360045602
 Max Drawdown Duration,230 days 00:00:00
-Total Trades,8
-Total Closed Trades,7
+Total Trades,7
+Total Closed Trades,6
 Total Open Trades,1
-Open Trade PnL,-375.5654123131144
-Win Rate [%],28.57142857142857
-Best Trade [%],2.4471540360161623
-Worst Trade [%],-8.20070000843383
-Avg Winning Trade [%],1.692798294430534
-Avg Losing Trade [%],-5.115655457128852
-Avg Winning Trade Duration,72 days 00:00:00
-Avg Losing Trade Duration,17 days 00:00:00
-Profit Factor,0.132430831502352
-Expectancy,-293.5677085933674
-Sharpe Ratio,-0.6727071151506121
-Calmar Ratio,-0.59115873678377
-Omega Ratio,0.8758725354895995
-Sortino Ratio,-0.8876128739775873
+Open Trade PnL,-24.409986805516382
+Win Rate [%],16.666666666666664
+Best Trade [%],1.610081750904761
+Worst Trade [%],-7.661190237820881
+Avg Winning Trade [%],1.610081750904761
+Avg Losing Trade [%],-4.265498105128653
+Avg Winning Trade Duration,61 days 00:00:00
+Avg Losing Trade Duration,33 days 09:36:00
+Profit Factor,0.07690855096636234
+Expectancy,-307.39142871938185
+Sharpe Ratio,-0.491535347380802
+Calmar Ratio,-0.4416435102019336
+Omega Ratio,0.9080674508130495
+Sortino Ratio,-0.6544602052945464

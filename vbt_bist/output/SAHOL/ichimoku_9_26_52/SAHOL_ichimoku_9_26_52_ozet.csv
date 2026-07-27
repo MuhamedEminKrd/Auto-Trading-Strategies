@@ -1,29 +1,29 @@
 ,SAHOL.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,7853.6809793291595
-Total Return [%],-21.463190206708404
-Benchmark Return [%],-14.309013901889866
+End Value,7038.507128850986
+Total Return [%],-29.61492871149014
+Benchmark Return [%],-10.63580401428662
 Max Gross Exposure [%],100.0
-Total Fees Paid,114.12295677993286
-Max Drawdown [%],38.182289167381136
+Total Fees Paid,112.14320576172686
+Max Drawdown [%],44.59866190544958
 Max Drawdown Duration,218 days 00:00:00
 Total Trades,6
 Total Closed Trades,6
 Total Open Trades,0
 Open Trade PnL,0.0
 Win Rate [%],33.33333333333333
-Best Trade [%],3.49253127223264
-Worst Trade [%],-8.512296043898505
-Avg Winning Trade [%],3.014936040423091
-Avg Losing Trade [%],-7.241737753002033
+Best Trade [%],3.492522501618403
+Worst Trade [%],-13.888681687050367
+Avg Winning Trade [%],3.01493165511597
+Avg Losing Trade [%],-9.69733219065989
 Avg Winning Trade Duration,68 days 12:00:00
-Avg Losing Trade Duration,22 days 06:00:00
-Profit Factor,0.2182433134828278
-Expectancy,-357.71983677847334
-Sharpe Ratio,-0.4988089375958696
-Calmar Ratio,-0.4196372145160894
-Omega Ratio,0.9026918153290215
-Sortino Ratio,-0.6734058955291371
+Avg Losing Trade Duration,23 days 12:00:00
+Profit Factor,0.16827900612580177
+Expectancy,-493.5821451915022
+Sharpe Ratio,-0.7645759536022952
+Calmar Ratio,-0.504406796103958
+Omega Ratio,0.8558873341499471
+Sortino Ratio,-1.012985430625553

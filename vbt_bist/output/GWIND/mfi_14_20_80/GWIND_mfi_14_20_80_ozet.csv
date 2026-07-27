@@ -1,11 +1,11 @@
 ,GWIND.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,11731.282734200733
-Total Return [%],17.31282734200733
-Benchmark Return [%],-16.522293870320137
+End Value,12230.486236047038
+Total Return [%],22.30486236047038
+Benchmark Return [%],-16.3493435436305
 Max Gross Exposure [%],100.0
 Total Fees Paid,54.758818058750606
 Max Drawdown [%],12.987012987013
@@ -13,7 +13,7 @@ Max Drawdown Duration,84 days 00:00:00
 Total Trades,3
 Total Closed Trades,2
 Total Open Trades,1
-Open Trade PnL,270.7672633472357
+Open Trade PnL,769.9707651935405
 Win Rate [%],100.0
 Best Trade [%],9.247900452936383
 Worst Trade [%],4.917544138885227
@@ -23,7 +23,7 @@ Avg Winning Trade Duration,48 days 00:00:00
 Avg Losing Trade Duration,
 Profit Factor,inf
 Expectancy,730.2577354267485
-Sharpe Ratio,0.6997228233420558
-Calmar Ratio,0.941949644770747
-Omega Ratio,1.257156578119033
-Sortino Ratio,1.15427866652986
+Sharpe Ratio,0.8480008162178547
+Calmar Ratio,1.21135867312518
+Omega Ratio,1.316498138412661
+Sortino Ratio,1.4234620309201165

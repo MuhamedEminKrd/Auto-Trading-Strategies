@@ -1,29 +1,29 @@
 ,CCOLA.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,13453.238188515232
-Total Return [%],34.53238188515232
-Benchmark Return [%],-89.19813782724258
+End Value,14208.614332574705
+Total Return [%],42.08614332574705
+Benchmark Return [%],-89.28663858915232
 Max Gross Exposure [%],100.0
-Total Fees Paid,410.65375652135066
-Max Drawdown [%],22.802456466157313
-Max Drawdown Duration,201 days 00:00:00
-Total Trades,19
-Total Closed Trades,19
+Total Fees Paid,307.06737454720707
+Max Drawdown [%],27.72423841141795
+Max Drawdown Duration,203 days 00:00:00
+Total Trades,14
+Total Closed Trades,14
 Total Open Trades,0
 Open Trade PnL,0.0
-Win Rate [%],73.68421052631578
-Best Trade [%],18.442896614833373
-Worst Trade [%],-11.177845212638013
-Avg Winning Trade [%],5.776313248728254
-Avg Losing Trade [%],-9.101890673726217
-Avg Winning Trade Duration,12 days 22:17:08.571428
-Avg Losing Trade Duration,8 days 09:36:00
-Profit Factor,1.7017394751334165
-Expectancy,181.74937834290694
-Sharpe Ratio,0.8546809886199558
-Calmar Ratio,1.0486476305577859
-Omega Ratio,1.197505717265613
-Sortino Ratio,1.3431412451345557
+Win Rate [%],78.57142857142857
+Best Trade [%],10.629516535358427
+Worst Trade [%],-9.590893395931259
+Avg Winning Trade [%],4.482958667730327
+Avg Losing Trade [%],-4.04689172390564
+Avg Winning Trade Duration,14 days 06:32:43.636363
+Avg Losing Trade Duration,28 days 08:00:00
+Profit Factor,4.267905121088408
+Expectancy,300.6153094696215
+Sharpe Ratio,0.9596885216683365
+Calmar Ratio,1.0471825494453508
+Omega Ratio,1.2167544857956574
+Sortino Ratio,1.511130917130375

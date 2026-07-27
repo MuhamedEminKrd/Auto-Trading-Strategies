@@ -1,29 +1,29 @@
 ,TOASO.IS
-Start,2024-07-24 00:00:00
-End,2026-07-24 00:00:00
-Period,505 days 00:00:00
+Start,2024-07-29 00:00:00
+End,2026-07-27 00:00:00
+Period,503 days 00:00:00
 Start Value,10000.0
-End Value,10300.393031859567
-Total Return [%],3.003930318595667
-Benchmark Return [%],10.448875846181483
+End Value,12822.892325369754
+Total Return [%],28.22892325369754
+Benchmark Return [%],16.459413601298788
 Max Gross Exposure [%],100.0
-Total Fees Paid,256.53723792283597
-Max Drawdown [%],17.786194913709107
-Max Drawdown Duration,186 days 00:00:00
-Total Trades,12
-Total Closed Trades,12
+Total Fees Paid,257.66384291542477
+Max Drawdown [%],18.34077818192585
+Max Drawdown Duration,106 days 00:00:00
+Total Trades,11
+Total Closed Trades,11
 Total Open Trades,0
 Open Trade PnL,0.0
-Win Rate [%],58.333333333333336
+Win Rate [%],63.63636363636363
 Best Trade [%],9.985698941924557
-Worst Trade [%],-10.097905902268103
-Avg Winning Trade [%],5.660255901786848
-Avg Losing Trade [%],-6.740182763796386
-Avg Winning Trade Duration,8 days 17:08:34.285714
-Avg Losing Trade Duration,5 days 14:23:59.999999
-Profit Factor,1.0790081050594709
-Expectancy,25.03275265496393
-Sharpe Ratio,0.20527346203292907
-Calmar Ratio,0.1215679262379347
-Omega Ratio,1.0669159179031196
-Sortino Ratio,0.3317253461375542
+Worst Trade [%],-9.204582179958132
+Avg Winning Trade [%],5.930305319576338
+Avg Losing Trade [%],-3.6206249079659485
+Avg Winning Trade Duration,9 days 06:51:25.714285
+Avg Losing Trade Duration,14 days 12:00:00
+Profit Factor,2.5948130288614055
+Expectancy,256.626575033614
+Sharpe Ratio,0.8310384347306446
+Calmar Ratio,1.078099875162547
+Omega Ratio,1.2695882474371132
+Sortino Ratio,1.5292268593079672
