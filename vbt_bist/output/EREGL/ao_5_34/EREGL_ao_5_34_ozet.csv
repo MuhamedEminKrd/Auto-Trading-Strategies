@@ -1,0 +1,29 @@
+,EREGL.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,12465.107031598358
+Total Return [%],24.651070315983578
+Benchmark Return [%],53.627456675458696
+Max Gross Exposure [%],100.0
+Total Fees Paid,144.18784254668094
+Max Drawdown [%],33.669451919197705
+Max Drawdown Duration,402 days 00:00:00
+Total Trades,9
+Total Closed Trades,8
+Total Open Trades,1
+Open Trade PnL,4034.799651566258
+Win Rate [%],25.0
+Best Trade [%],12.42550890740333
+Worst Trade [%],-14.861637529033548
+Avg Winning Trade [%],12.251006593761632
+Avg Losing Trade [%],-6.386596166615453
+Avg Winning Trade Duration,66 days 00:00:00
+Avg Losing Trade Duration,11 days 12:00:00
+Profit Factor,0.5385433231340773
+Expectancy,-196.2115774959874
+Sharpe Ratio,0.6451475084098632
+Calmar Ratio,0.5127634536508444
+Omega Ratio,1.1352643269280693
+Sortino Ratio,0.9089586742011174

@@ -1,0 +1,29 @@
+,BIMAS.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,507 days 00:00:00
+Start Value,10000.0
+End Value,9582.371151611118
+Total Return [%],-4.17628848388882
+Benchmark Return [%],27.477421668343837
+Max Gross Exposure [%],100.0
+Total Fees Paid,150.40423889359067
+Max Drawdown [%],31.152460029960157
+Max Drawdown Duration,307 days 00:00:00
+Total Trades,9
+Total Closed Trades,9
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],22.22222222222222
+Best Trade [%],35.053945694261905
+Worst Trade [%],-7.701544197841336
+Avg Winning Trade [%],18.08743787137835
+Avg Losing Trade [%],-4.911879507414618
+Avg Winning Trade Duration,97 days 12:00:00
+Avg Losing Trade Duration,20 days 00:00:00
+Profit Factor,0.8619771206250187
+Expectancy,-46.40320537654242
+Sharpe Ratio,0.06346974908821622
+Calmar Ratio,-0.09708713768588471
+Omega Ratio,1.0105930311648057
+Sortino Ratio,0.09248094476435978

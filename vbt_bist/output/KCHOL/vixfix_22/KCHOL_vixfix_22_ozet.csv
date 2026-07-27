@@ -1,0 +1,29 @@
+,KCHOL.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,9245.079650897911
+Total Return [%],-7.549203491020889
+Benchmark Return [%],-4.429885054587102
+Max Gross Exposure [%],100.0
+Total Fees Paid,172.72669502327136
+Max Drawdown [%],10.478553770372272
+Max Drawdown Duration,297 days 00:00:00
+Total Trades,9
+Total Closed Trades,9
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],55.55555555555556
+Best Trade [%],6.508429301415345
+Worst Trade [%],-9.14996737485899
+Avg Winning Trade [%],3.3801498288866463
+Avg Losing Trade [%],-5.869339985650071
+Avg Winning Trade Duration,4 days 19:12:00
+Avg Losing Trade Duration,13 days 00:00:00
+Profit Factor,0.6737290848914402
+Expectancy,-83.88003878912076
+Sharpe Ratio,-0.2783828814079563
+Calmar Ratio,-0.5263483712085616
+Omega Ratio,0.905689266990531
+Sortino Ratio,-0.41566721679086804

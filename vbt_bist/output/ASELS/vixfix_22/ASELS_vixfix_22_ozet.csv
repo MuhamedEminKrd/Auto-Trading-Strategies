@@ -1,0 +1,29 @@
+,ASELS.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,10733.267528504632
+Total Return [%],7.332675285046316
+Benchmark Return [%],507.2566125950958
+Max Gross Exposure [%],100.0
+Total Fees Paid,259.9913620221774
+Max Drawdown [%],12.116094523877305
+Max Drawdown Duration,209 days 00:00:00
+Total Trades,12
+Total Closed Trades,12
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],58.333333333333336
+Best Trade [%],9.711253905617125
+Worst Trade [%],-8.317174291822942
+Avg Winning Trade [%],4.249420414650924
+Avg Losing Trade [%],-4.195942281466671
+Avg Winning Trade Duration,6 days 00:00:00
+Avg Losing Trade Duration,11 days 19:12:00
+Profit Factor,1.3066542224492266
+Expectancy,61.105627375386035
+Sharpe Ratio,0.327096692628186
+Calmar Ratio,0.4331099276139168
+Omega Ratio,1.1097616089347815
+Sortino Ratio,0.5217460923775143

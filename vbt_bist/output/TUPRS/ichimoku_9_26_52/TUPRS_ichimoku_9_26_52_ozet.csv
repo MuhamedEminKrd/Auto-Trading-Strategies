@@ -1,0 +1,29 @@
+,TUPRS.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,14759.344526665678
+Total Return [%],47.59344526665678
+Benchmark Return [%],129.91654001997097
+Max Gross Exposure [%],100.0
+Total Fees Paid,139.75763007809496
+Max Drawdown [%],29.88937826466649
+Max Drawdown Duration,191 days 00:00:00
+Total Trades,8
+Total Closed Trades,7
+Total Open Trades,1
+Open Trade PnL,2206.0421885714786
+Win Rate [%],28.57142857142857
+Best Trade [%],42.35183952417913
+Worst Trade [%],-7.45706249427132
+Avg Winning Trade [%],31.7470166226549
+Avg Losing Trade [%],-6.144674988321482
+Avg Winning Trade Duration,119 days 12:00:00
+Avg Losing Trade Duration,7 days 14:24:00
+Profit Factor,1.9397157037340689
+Expectancy,364.7574768705999
+Sharpe Ratio,1.0463073462132517
+Calmar Ratio,1.0871500121787268
+Omega Ratio,1.2110343988682633
+Sortino Ratio,1.600384048481825

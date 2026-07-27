@@ -1,0 +1,29 @@
+,YKBNK.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,9009.295742581286
+Total Return [%],-9.907042574187145
+Benchmark Return [%],9.736845490014435
+Max Gross Exposure [%],100.0
+Total Fees Paid,122.64347170695564
+Max Drawdown [%],21.535422754726262
+Max Drawdown Duration,453 days 00:00:00
+Total Trades,7
+Total Closed Trades,7
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],42.857142857142854
+Best Trade [%],13.240022273365968
+Worst Trade [%],-10.455506603533145
+Avg Winning Trade [%],9.021540911769133
+Avg Losing Trade [%],-8.638200342315638
+Avg Winning Trade Duration,8 days 00:00:00
+Avg Losing Trade Duration,11 days 06:00:00
+Profit Factor,0.6903930221161935
+Expectancy,-141.5291796312448
+Sharpe Ratio,-0.28771439008017907
+Calmar Ratio,-0.33727063967827947
+Omega Ratio,0.8989915844743012
+Sortino Ratio,-0.41367094631280016

@@ -1,0 +1,29 @@
+,HEKTS.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,7824.970163661125
+Total Return [%],-21.750298363388747
+Benchmark Return [%],-77.66990341394744
+Max Gross Exposure [%],100.0
+Total Fees Paid,99.50296747831409
+Max Drawdown [%],26.32911573571235
+Max Drawdown Duration,339 days 00:00:00
+Total Trades,6
+Total Closed Trades,5
+Total Open Trades,1
+Open Trade PnL,-128.48659005250192
+Win Rate [%],20.0
+Best Trade [%],17.017802113296167
+Worst Trade [%],-13.42845787399325
+Avg Winning Trade [%],17.017802113296167
+Avg Losing Trade [%],-9.173795589500726
+Avg Winning Trade Duration,49 days 00:00:00
+Avg Losing Trade Duration,22 days 18:00:00
+Profit Factor,0.4183572116031508
+Expectancy,-409.3086492572749
+Sharpe Ratio,-0.5262719374582172
+Calmar Ratio,-0.6169865774633752
+Omega Ratio,0.8725475407767717
+Sortino Ratio,-0.7621458412910586

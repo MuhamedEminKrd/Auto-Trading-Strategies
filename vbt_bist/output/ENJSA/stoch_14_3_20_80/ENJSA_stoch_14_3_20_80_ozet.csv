@@ -1,0 +1,29 @@
+,ENJSA.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,8523.39906347973
+Total Return [%],-14.766009365202699
+Benchmark Return [%],66.64605754498618
+Max Gross Exposure [%],100.0
+Total Fees Paid,240.27734970268065
+Max Drawdown [%],26.610410972991495
+Max Drawdown Duration,328 days 00:00:00
+Total Trades,14
+Total Closed Trades,14
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],50.0
+Best Trade [%],13.056829137729803
+Worst Trade [%],-9.050026173013956
+Avg Winning Trade [%],5.74554015924791
+Avg Losing Trade [%],-7.482594219742531
+Avg Winning Trade Duration,14 days 06:51:25.714285
+Avg Losing Trade Duration,13 days 17:08:34.285714
+Profit Factor,0.692038269534678
+Expectancy,-105.47149546573354
+Sharpe Ratio,-0.2843471842068081
+Calmar Ratio,-0.40983640078692
+Omega Ratio,0.9406934845240569
+Sortino Ratio,-0.3999531376188837

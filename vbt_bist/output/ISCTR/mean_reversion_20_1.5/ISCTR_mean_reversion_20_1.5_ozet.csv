@@ -1,0 +1,29 @@
+,ISCTR.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,8639.214750027862
+Total Return [%],-13.607852499721377
+Benchmark Return [%],-14.928347256261244
+Max Gross Exposure [%],100.0
+Total Fees Paid,340.7061937510119
+Max Drawdown [%],34.20063905584789
+Max Drawdown Duration,337 days 00:00:00
+Total Trades,16
+Total Closed Trades,16
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],50.0
+Best Trade [%],10.077669678871892
+Worst Trade [%],-10.36203057975102
+Avg Winning Trade [%],7.554933597411215
+Avg Losing Trade [%],-8.689603249903701
+Avg Winning Trade Duration,12 days 15:00:00
+Avg Losing Trade Duration,10 days 12:00:00
+Profit Factor,0.8220722901394053
+Expectancy,-85.04907812325843
+Sharpe Ratio,-0.21030184131451624
+Calmar Ratio,-0.29334422443405933
+Omega Ratio,0.9518671540115642
+Sortino Ratio,-0.29635277589968856

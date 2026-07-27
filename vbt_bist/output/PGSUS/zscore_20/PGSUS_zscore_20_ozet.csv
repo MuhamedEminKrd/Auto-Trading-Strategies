@@ -1,0 +1,29 @@
+,PGSUS.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,13986.801894938211
+Total Return [%],39.86801894938211
+Benchmark Return [%],-31.087417439865327
+Max Gross Exposure [%],100.0
+Total Fees Paid,289.8777401674125
+Max Drawdown [%],8.395605173706878
+Max Drawdown Duration,88 days 00:00:00
+Total Trades,12
+Total Closed Trades,11
+Total Open Trades,1
+Open Trade PnL,-423.9598474215745
+Win Rate [%],81.81818181818183
+Best Trade [%],13.300477979738986
+Worst Trade [%],-7.424148675398771
+Avg Winning Trade [%],5.528419774610125
+Avg Losing Trade [%],-5.543506929847595
+Avg Winning Trade Duration,7 days 05:20:00
+Avg Losing Trade Duration,19 days 12:00:00
+Profit Factor,3.8206691490106053
+Expectancy,400.97834021452616
+Sharpe Ratio,1.3400342050991463
+Calmar Ratio,3.2689175189805013
+Omega Ratio,1.4923998823103237
+Sortino Ratio,2.675525724192575

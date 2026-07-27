@@ -1,0 +1,29 @@
+,THYAO.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,10814.99751385623
+Total Return [%],8.149975138562295
+Benchmark Return [%],4.715669991903271
+Max Gross Exposure [%],100.0
+Total Fees Paid,251.79111997370683
+Max Drawdown [%],18.454888201837676
+Max Drawdown Duration,217 days 00:00:00
+Total Trades,12
+Total Closed Trades,11
+Total Open Trades,1
+Open Trade PnL,-32.46662253659633
+Win Rate [%],72.72727272727273
+Best Trade [%],6.489679598209447
+Worst Trade [%],-8.582000143139998
+Avg Winning Trade [%],3.573366779409666
+Avg Losing Trade [%],-6.337049696978775
+Avg Winning Trade Duration,8 days 06:00:00
+Avg Losing Trade Duration,12 days 08:00:00
+Profit Factor,1.386609249203347
+Expectancy,77.04219421752947
+Sharpe Ratio,0.40372019534806086
+Calmar Ratio,0.31570159044210944
+Omega Ratio,1.1281374139669118
+Sortino Ratio,0.7088412992195449

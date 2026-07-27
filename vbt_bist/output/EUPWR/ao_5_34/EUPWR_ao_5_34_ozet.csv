@@ -1,0 +1,29 @@
+,EUPWR.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,23027.16356225766
+Total Return [%],130.2716356225766
+Benchmark Return [%],187.13060075917247
+Max Gross Exposure [%],100.0
+Total Fees Paid,194.39228736105693
+Max Drawdown [%],38.555588466324885
+Max Drawdown Duration,347 days 00:00:00
+Total Trades,10
+Total Closed Trades,9
+Total Open Trades,1
+Open Trade PnL,1989.7560007520806
+Win Rate [%],44.44444444444444
+Best Trade [%],108.9753522059478
+Worst Trade [%],-10.704100729058908
+Avg Winning Trade [%],38.124395197084716
+Avg Losing Trade [%],-7.41307045741685
+Avg Winning Trade Duration,53 days 18:00:00
+Avg Losing Trade Duration,6 days 04:48:00
+Profit Factor,4.212680828618888
+Expectancy,1226.3786179450644
+Sharpe Ratio,1.4186013703746183
+Calmar Ratio,2.1458148604514684
+Omega Ratio,1.3270833805882762
+Sortino Ratio,2.4465083529102776

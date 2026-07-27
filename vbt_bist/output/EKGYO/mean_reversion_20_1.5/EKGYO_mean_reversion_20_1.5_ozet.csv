@@ -1,0 +1,29 @@
+,EKGYO.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,11707.440817012406
+Total Return [%],17.074408170124062
+Benchmark Return [%],66.14771052213698
+Max Gross Exposure [%],100.0
+Total Fees Paid,247.4397969311185
+Max Drawdown [%],33.712213877410704
+Max Drawdown Duration,295 days 00:00:00
+Total Trades,13
+Total Closed Trades,12
+Total Open Trades,1
+Open Trade PnL,-779.304313914361
+Win Rate [%],58.333333333333336
+Best Trade [%],20.413193573435578
+Worst Trade [%],-10.369465542435353
+Avg Winning Trade [%],10.195956556281557
+Avg Losing Trade [%],-8.614339119668287
+Avg Winning Trade Duration,14 days 20:34:17.142857
+Avg Losing Trade Duration,9 days 04:47:59.999999
+Profit Factor,1.569477599175506
+Expectancy,207.22876091056423
+Sharpe Ratio,0.5312439179775957
+Calmar Ratio,0.35797722275771476
+Omega Ratio,1.1416229962066489
+Sortino Ratio,0.7547498378198184

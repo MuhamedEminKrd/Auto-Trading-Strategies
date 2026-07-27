@@ -1,0 +1,29 @@
+,SAHOL.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,6606.949855167462
+Total Return [%],-33.93050144832538
+Benchmark Return [%],-14.309013901889866
+Max Gross Exposure [%],100.0
+Total Fees Paid,201.93557571130637
+Max Drawdown [%],40.90313630715372
+Max Drawdown Duration,487 days 00:00:00
+Total Trades,13
+Total Closed Trades,13
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],30.76923076923077
+Best Trade [%],8.394207016400983
+Worst Trade [%],-12.036550511516015
+Avg Winning Trade [%],5.246954017942844
+Avg Losing Trade [%],-6.561445693485678
+Avg Winning Trade Duration,15 days 12:00:00
+Avg Losing Trade Duration,13 days 13:20:00
+Profit Factor,0.29104300042718095
+Expectancy,-261.0038572948109
+Sharpe Ratio,-1.0300836459553697
+Calmar Ratio,-0.6328548839726101
+Omega Ratio,0.7843171064786485
+Sortino Ratio,-1.338092186552539

@@ -1,0 +1,29 @@
+,VAKBN.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,7934.012460265478
+Total Return [%],-20.659875397345225
+Benchmark Return [%],35.84905417872566
+Max Gross Exposure [%],100.0
+Total Fees Paid,296.25898346530073
+Max Drawdown [%],34.43605846813104
+Max Drawdown Duration,231 days 00:00:00
+Total Trades,15
+Total Closed Trades,14
+Total Open Trades,1
+Open Trade PnL,-434.3407630270249
+Win Rate [%],50.0
+Best Trade [%],14.210235018391543
+Worst Trade [%],-10.574482419529229
+Avg Winning Trade [%],5.875552065068398
+Avg Losing Trade [%],-7.826559874722109
+Avg Winning Trade Duration,12 days 20:34:17.142857
+Avg Losing Trade Duration,6 days 17:08:34.285714
+Profit Factor,0.7148150308516845
+Expectancy,-116.54619833624969
+Sharpe Ratio,-0.5808240650361585
+Calmar Ratio,-0.44728555022085925
+Omega Ratio,0.8613330965362939
+Sortino Ratio,-0.8380196782541264

@@ -1,0 +1,29 @@
+,SOKM.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,10149.750521897888
+Total Return [%],1.4975052189788767
+Benchmark Return [%],-15.556005551041007
+Max Gross Exposure [%],100.0
+Total Fees Paid,94.53493012515156
+Max Drawdown [%],27.524479408626096
+Max Drawdown Duration,279 days 00:00:00
+Total Trades,6
+Total Closed Trades,5
+Total Open Trades,1
+Open Trade PnL,324.20826705749823
+Win Rate [%],40.0
+Best Trade [%],30.40899263144713
+Worst Trade [%],-10.242903360829606
+Avg Winning Trade [%],15.211506157024946
+Avg Losing Trade [%],-9.007213968121155
+Avg Winning Trade Duration,74 days 12:00:00
+Avg Losing Trade Duration,10 days 00:00:00
+Profit Factor,0.9292230333108565
+Expectancy,-34.89154903192224
+Sharpe Ratio,0.16592322352407637
+Calmar Ratio,0.03924225942529406
+Omega Ratio,1.0387491147975068
+Sortino Ratio,0.23317229714082968

@@ -1,0 +1,29 @@
+,TOASO.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,9492.99676489233
+Total Return [%],-5.070032351076698
+Benchmark Return [%],10.448875846181483
+Max Gross Exposure [%],100.0
+Total Fees Paid,250.37822776122553
+Max Drawdown [%],24.739421085176627
+Max Drawdown Duration,257 days 00:00:00
+Total Trades,14
+Total Closed Trades,13
+Total Open Trades,1
+Open Trade PnL,-206.39067163054642
+Win Rate [%],53.84615384615385
+Best Trade [%],13.584486050532563
+Worst Trade [%],-11.320543747189065
+Avg Winning Trade [%],8.75135241028666
+Avg Losing Trade [%],-9.737714071931247
+Avg Winning Trade Duration,17 days 06:51:25.714285
+Avg Losing Trade Duration,9 days 08:00:00
+Profit Factor,0.9471823684509064
+Expectancy,-23.124043344393897
+Sharpe Ratio,0.03363742797441609
+Calmar Ratio,-0.14918717812806187
+Omega Ratio,1.007844246330099
+Sortino Ratio,0.05154617916966661

@@ -1,0 +1,29 @@
+,CCOLA.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,12318.430088626425
+Total Return [%],23.184300886264246
+Benchmark Return [%],-89.19813782724258
+Max Gross Exposure [%],100.0
+Total Fees Paid,146.37964967742917
+Max Drawdown [%],30.070233775057304
+Max Drawdown Duration,276 days 00:00:00
+Total Trades,9
+Total Closed Trades,8
+Total Open Trades,1
+Open Trade PnL,2517.842071065086
+Win Rate [%],12.5
+Best Trade [%],29.636930586012223
+Worst Trade [%],-8.081810409781552
+Avg Winning Trade [%],29.636930586012223
+Avg Losing Trade [%],-3.8888400036599804
+Avg Winning Trade Duration,112 days 00:00:00
+Avg Losing Trade Duration,10 days 20:34:17.142857
+Profit Factor,0.9182149587310634
+Expectancy,-24.92649780483316
+Sharpe Ratio,0.6494373359293436
+Calmar Ratio,0.5409173557116752
+Omega Ratio,1.1350232614608042
+Sortino Ratio,1.0182530490345443

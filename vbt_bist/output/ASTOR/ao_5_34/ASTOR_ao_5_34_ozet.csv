@@ -1,0 +1,29 @@
+,ASTOR.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,32826.80724153109
+Total Return [%],228.2680724153109
+Benchmark Return [%],217.92165180425442
+Max Gross Exposure [%],100.0
+Total Fees Paid,284.7380906105945
+Max Drawdown [%],27.27927228924124
+Max Drawdown Duration,146 days 00:00:00
+Total Trades,9
+Total Closed Trades,9
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],33.33333333333333
+Best Trade [%],199.11359582035567
+Worst Trade [%],-10.133947852326816
+Avg Winning Trade [%],88.59204086439777
+Avg Losing Trade [%],-7.381698555498267
+Avg Winning Trade Duration,85 days 08:00:00
+Avg Losing Trade Duration,4 days 12:00:00
+Profit Factor,3.9026693430449555
+Expectancy,2536.311915725677
+Sharpe Ratio,2.0386560279234973
+Calmar Ratio,4.989529945075828
+Omega Ratio,1.46465000066533
+Sortino Ratio,3.3403049811892784

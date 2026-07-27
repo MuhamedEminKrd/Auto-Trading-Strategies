@@ -1,0 +1,29 @@
+,TCELL.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,10715.773792236745
+Total Return [%],7.157737922367451
+Benchmark Return [%],3.567400775724927
+Max Gross Exposure [%],100.0
+Total Fees Paid,41.27692362338119
+Max Drawdown [%],17.14520202154544
+Max Drawdown Duration,137 days 00:00:00
+Total Trades,2
+Total Closed Trades,2
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],100.0
+Best Trade [%],4.241290369111833
+Worst Trade [%],2.804765866050176
+Avg Winning Trade [%],3.523028117581005
+Avg Losing Trade [%],
+Avg Winning Trade Duration,44 days 12:00:00
+Avg Losing Trade Duration,
+Profit Factor,inf
+Expectancy,357.88689611837185
+Sharpe Ratio,0.375258898768221
+Calmar Ratio,0.2988351590160823
+Omega Ratio,1.128220592128932
+Sortino Ratio,0.5475485704028163

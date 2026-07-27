@@ -1,0 +1,29 @@
+,FROTO.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,9829.983102568109
+Total Return [%],-1.7001689743189126
+Benchmark Return [%],-11.100701771857867
+Max Gross Exposure [%],100.0
+Total Fees Paid,75.12705387055645
+Max Drawdown [%],24.18401157298992
+Max Drawdown Duration,119 days 00:00:00
+Total Trades,4
+Total Closed Trades,4
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],50.0
+Best Trade [%],12.074239298734973
+Worst Trade [%],-8.682687441236043
+Avg Winning Trade [%],7.836902833810114
+Avg Losing Trade [%],-7.986794081073267
+Avg Winning Trade Duration,58 days 12:00:00
+Avg Losing Trade Duration,17 days 12:00:00
+Profit Factor,0.8911198149956105
+Expectancy,-42.50422435797299
+Sharpe Ratio,0.06411132984275597
+Calmar Ratio,-0.05093249823602635
+Omega Ratio,1.0158520667705027
+Sortino Ratio,0.09096332029658057

@@ -1,0 +1,29 @@
+,ALFAS.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,12661.534790793843
+Total Return [%],26.615347907938432
+Benchmark Return [%],-31.878061600105866
+Max Gross Exposure [%],100.0
+Total Fees Paid,86.26284036746218
+Max Drawdown [%],36.17368026037139
+Max Drawdown Duration,341 days 00:00:00
+Total Trades,4
+Total Closed Trades,4
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],50.0
+Best Trade [%],29.9619231772851
+Worst Trade [%],-8.704434864445105
+Avg Winning Trade [%],22.631175037418732
+Avg Losing Trade [%],-8.067133137694455
+Avg Winning Trade Duration,44 days 00:00:00
+Avg Losing Trade Duration,10 days 12:00:00
+Profit Factor,2.4920806181239135
+Expectancy,665.3836976984608
+Sharpe Ratio,0.6631741290803005
+Calmar Ratio,0.5141075304835707
+Omega Ratio,1.2303589596642428
+Sortino Ratio,1.015177240262471

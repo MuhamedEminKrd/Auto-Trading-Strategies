@@ -1,0 +1,29 @@
+,ODAS.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,8015.833415925684
+Total Return [%],-19.84166584074316
+Benchmark Return [%],-0.8148974805679998
+Max Gross Exposure [%],100.0
+Total Fees Paid,194.09914931068516
+Max Drawdown [%],37.096042467691
+Max Drawdown Duration,408 days 00:00:00
+Total Trades,12
+Total Closed Trades,11
+Total Open Trades,1
+Open Trade PnL,89.17523912462639
+Win Rate [%],27.27272727272727
+Best Trade [%],12.616198732074418
+Worst Trade [%],-9.000329378936579
+Avg Winning Trade [%],6.4063683307103565
+Avg Losing Trade [%],-5.026548871401713
+Avg Winning Trade Duration,36 days 00:00:00
+Avg Losing Trade Duration,10 days 18:00:00
+Profit Factor,0.41698059087832007
+Expectancy,-188.4856202908128
+Sharpe Ratio,-0.2621840229654644
+Calmar Ratio,-0.3982388281699894
+Omega Ratio,0.9462513795536657
+Sortino Ratio,-0.36433696141520433

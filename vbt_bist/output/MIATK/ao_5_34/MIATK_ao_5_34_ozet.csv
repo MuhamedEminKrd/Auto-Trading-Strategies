@@ -1,0 +1,29 @@
+,MIATK.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,7566.213088539898
+Total Return [%],-24.337869114601016
+Benchmark Return [%],-48.444445379849256
+Max Gross Exposure [%],100.0
+Total Fees Paid,177.57837229208167
+Max Drawdown [%],43.520110027448666
+Max Drawdown Duration,212 days 00:00:00
+Total Trades,9
+Total Closed Trades,9
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],22.22222222222222
+Best Trade [%],21.694503394232054
+Worst Trade [%],-12.268521426543481
+Avg Winning Trade [%],11.756655504413738
+Avg Losing Trade [%],-6.744852000262765
+Avg Winning Trade Duration,49 days 12:00:00
+Avg Losing Trade Duration,10 days 03:25:42.857142
+Profit Factor,0.4724466109035437
+Expectancy,-270.4207679400114
+Sharpe Ratio,-0.42713107009143464
+Calmar Ratio,-0.4194803341660722
+Omega Ratio,0.9032851243929643
+Sortino Ratio,-0.6120024733004955

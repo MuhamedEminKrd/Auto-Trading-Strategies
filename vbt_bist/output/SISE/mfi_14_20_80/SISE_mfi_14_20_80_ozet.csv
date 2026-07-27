@@ -1,0 +1,29 @@
+,SISE.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,10124.165273669825
+Total Return [%],1.241652736698252
+Benchmark Return [%],-7.888550108937597
+Max Gross Exposure [%],100.0
+Total Fees Paid,109.81067070278002
+Max Drawdown [%],21.016531327339287
+Max Drawdown Duration,399 days 00:00:00
+Total Trades,6
+Total Closed Trades,6
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],50.0
+Best Trade [%],10.363188965183816
+Worst Trade [%],-8.025226297846373
+Avg Winning Trade [%],8.919962654834912
+Avg Losing Trade [%],-7.799049662951429
+Avg Winning Trade Duration,19 days 00:00:00
+Avg Losing Trade Duration,23 days 16:00:00
+Profit Factor,1.055780646073448
+Expectancy,20.694212278304178
+Sharpe Ratio,0.14501477136520147
+Calmar Ratio,0.04262814337821681
+Omega Ratio,1.0423930054165098
+Sortino Ratio,0.23999106191327482

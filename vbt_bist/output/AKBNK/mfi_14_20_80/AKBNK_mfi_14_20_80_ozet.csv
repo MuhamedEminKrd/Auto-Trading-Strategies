@@ -1,0 +1,29 @@
+,AKBNK.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,13039.122730122286
+Total Return [%],30.391227301222862
+Benchmark Return [%],5.663661314058777
+Max Gross Exposure [%],100.0
+Total Fees Paid,23.042184895036954
+Max Drawdown [%],6.645316934398841
+Max Drawdown Duration,148 days 00:00:00
+Total Trades,1
+Total Closed Trades,1
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],100.0
+Best Trade [%],30.421618528524085
+Worst Trade [%],30.421618528524085
+Avg Winning Trade [%],30.421618528524085
+Avg Losing Trade [%],
+Avg Winning Trade Duration,46 days 00:00:00
+Avg Losing Trade Duration,
+Profit Factor,inf
+Expectancy,3039.1227301222866
+Sharpe Ratio,1.8612759272876371
+Calmar Ratio,3.181639268921907
+Omega Ratio,2.443167402646997
+Sortino Ratio,3.727773817460014

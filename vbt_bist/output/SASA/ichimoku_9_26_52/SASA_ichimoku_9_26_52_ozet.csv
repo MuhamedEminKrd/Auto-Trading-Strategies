@@ -1,0 +1,29 @@
+,SASA.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,7529.285879650072
+Total Return [%],-24.707141203499276
+Benchmark Return [%],-53.68058355180675
+Max Gross Exposure [%],100.0
+Total Fees Paid,115.69414630488998
+Max Drawdown [%],36.03045890143214
+Max Drawdown Duration,232 days 00:00:00
+Total Trades,7
+Total Closed Trades,7
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],28.57142857142857
+Best Trade [%],5.006900290099073
+Worst Trade [%],-9.738447646266259
+Avg Winning Trade [%],2.5838286925057954
+Avg Losing Trade [%],-6.424084504978676
+Avg Winning Trade Duration,31 days 12:00:00
+Avg Losing Trade Duration,7 days 14:24:00
+Profit Factor,0.13809936557390648
+Expectancy,-352.95916004998963
+Sharpe Ratio,-0.35368953862316044
+Calmar Ratio,-0.5146861983392043
+Omega Ratio,0.8965294862834577
+Sortino Ratio,-0.5156783904067266

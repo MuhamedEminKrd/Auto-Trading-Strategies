@@ -1,0 +1,29 @@
+,KRDMD.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,9470.273524690909
+Total Return [%],-5.2972647530909125
+Benchmark Return [%],37.54889290473751
+Max Gross Exposure [%],100.0
+Total Fees Paid,227.02494477197212
+Max Drawdown [%],28.661779172807172
+Max Drawdown Duration,391 days 00:00:00
+Total Trades,13
+Total Closed Trades,12
+Total Open Trades,1
+Open Trade PnL,-613.6575716127536
+Win Rate [%],33.33333333333333
+Best Trade [%],18.677612297574203
+Worst Trade [%],-8.052476505169778
+Avg Winning Trade [%],10.891931062042676
+Avg Losing Trade [%],-4.832411717017342
+Avg Winning Trade Duration,38 days 00:00:00
+Avg Losing Trade Duration,10 days 03:00:00
+Profit Factor,1.0236786206053896
+Expectancy,6.994258025305328
+Sharpe Ratio,0.06978485716444911
+Calmar Ratio,-0.13458631462651546
+Omega Ratio,1.0146198160238569
+Sortino Ratio,0.09702120264703852

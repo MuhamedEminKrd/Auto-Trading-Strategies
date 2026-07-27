@@ -1,0 +1,29 @@
+,GUBRF.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,13504.25473932467
+Total Return [%],35.0425473932467
+Benchmark Return [%],150.89020771513367
+Max Gross Exposure [%],100.0
+Total Fees Paid,108.48983920461345
+Max Drawdown [%],35.91886563268706
+Max Drawdown Duration,212 days 00:00:00
+Total Trades,6
+Total Closed Trades,6
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],16.666666666666664
+Best Trade [%],82.93765081776746
+Worst Trade [%],-8.492253150602552
+Avg Winning Trade [%],82.93765081776746
+Avg Losing Trade [%],-5.864446867596093
+Avg Winning Trade Duration,213 days 00:00:00
+Avg Losing Trade Duration,7 days 04:48:00
+Profit Factor,2.3401791464489086
+Expectancy,584.0424565541116
+Sharpe Ratio,0.7740033384838698
+Calmar Ratio,0.6751657424742487
+Omega Ratio,1.15992821511117
+Sortino Ratio,1.1386714597000127

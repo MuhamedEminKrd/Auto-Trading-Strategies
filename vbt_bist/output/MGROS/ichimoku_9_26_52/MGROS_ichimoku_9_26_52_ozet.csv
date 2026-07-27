@@ -1,0 +1,29 @@
+,MGROS.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,10544.218116512176
+Total Return [%],5.442181165121765
+Benchmark Return [%],13.111780977484578
+Max Gross Exposure [%],100.0
+Total Fees Paid,122.54178324045509
+Max Drawdown [%],23.174681201539602
+Max Drawdown Duration,216 days 00:00:00
+Total Trades,6
+Total Closed Trades,6
+Total Open Trades,0
+Open Trade PnL,0.0
+Win Rate [%],33.33333333333333
+Best Trade [%],14.589890886941046
+Worst Trade [%],-7.368207889008947
+Avg Winning Trade [%],11.156499902926855
+Avg Losing Trade [%],-3.834726677940549
+Avg Winning Trade Duration,79 days 00:00:00
+Avg Losing Trade Duration,23 days 00:00:00
+Profit Factor,1.335088317409341
+Expectancy,90.70301941869621
+Sharpe Ratio,0.27754542212915156
+Calmar Ratio,0.1684792154449047
+Omega Ratio,1.0564109582764474
+Sortino Ratio,0.39306699329143663

@@ -1,0 +1,29 @@
+,AEFES.IS
+Start,2024-07-24 00:00:00
+End,2026-07-24 00:00:00
+Period,505 days 00:00:00
+Start Value,10000.0
+End Value,10935.427272698706
+Total Return [%],9.354272726987055
+Benchmark Return [%],-23.60887821501404
+Max Gross Exposure [%],100.0
+Total Fees Paid,81.37495559525877
+Max Drawdown [%],31.690900550167633
+Max Drawdown Duration,283 days 00:00:00
+Total Trades,5
+Total Closed Trades,4
+Total Open Trades,1
+Open Trade PnL,919.3892932882318
+Win Rate [%],50.0
+Best Trade [%],21.066252041712204
+Worst Trade [%],-13.618756926283105
+Avg Winning Trade [%],11.82893493566122
+Avg Losing Trade [%],-10.132832058656813
+Avg Winning Trade Duration,59 days 00:00:00
+Avg Losing Trade Duration,24 days 12:00:00
+Profit Factor,1.0082917894515966
+Expectancy,4.009494852618559
+Sharpe Ratio,0.36164641625615135
+Calmar Ratio,0.21068065392672675
+Omega Ratio,1.0786215920499775
+Sortino Ratio,0.4920576385252109
