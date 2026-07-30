@@ -10,6 +10,7 @@ import os
 import pandas as pd
 import importlib
 import inspect
+import glob
 
 # Pandas Future Warnings (Sarı Uyarılar) Kapatma
 pd.set_option('future.no_silent_downcasting', True)
@@ -19,7 +20,7 @@ warnings.filterwarnings('ignore')
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 # ============================================================
-#  TEST ETMEK İSTEDİĞİN TÜM HİSSELERİ BU LİSTEYE YAZ
+# HİSSE LİSTESİ
 # ============================================================
 HISSE_LISTESI = [
     "AKBNK.IS", "GARAN.IS", "ISCTR.IS", "YKBNK.IS", "VAKBN.IS",
@@ -50,6 +51,7 @@ for HISSE_KODU in HISSE_LISTESI:
     try:
         veri = yf.download(HISSE_KODU, period=VERI_SURESI, interval="1d")
         kapanis = veri['Close'][HISSE_KODU]
+        acilis = veri['Open'][HISSE_KODU]
         yuksek = veri['High'][HISSE_KODU]
         dusuk = veri['Low'][HISSE_KODU]
         hacim = veri['Volume'][HISSE_KODU]
@@ -67,6 +69,7 @@ for HISSE_KODU in HISSE_LISTESI:
         veri_deposu = {
             'kapanis_fiyatlari': kapanis,
             'kapanis': kapanis,
+            'acilis': acilis,
             'yuksek': yuksek,
             'dusuk': dusuk,
             'hacim': hacim,
@@ -85,9 +88,35 @@ for HISSE_KODU in HISSE_LISTESI:
                 for arg_adi in sig.parameters:
                     if arg_adi in veri_deposu:
                         fonksiyon_argumanlari[arg_adi] = veri_deposu[arg_adi]
-                        
+
+                # --- AKILLI ATLAMA (SMART SKIP) ---
+                hedef_klasor_strateji = os.path.join("vbt_bist", "output", baslik)
+                zaten_var = False
+                mevcut_klasor = None
+                if os.path.exists(hedef_klasor_strateji):
+                    for kl in os.listdir(hedef_klasor_strateji):
+                        if kl.startswith(modul_adi) and os.path.isdir(os.path.join(hedef_klasor_strateji, kl)):
+                            zaten_var = True
+                            mevcut_klasor = os.path.join(hedef_klasor_strateji, kl)
+                            break
+
+                if zaten_var:
+                    print(f"--- [{i}/{toplam_strateji}] {modul_adi.upper()} Hazır, ATLANDI ---")
+                    try:
+                        ozet_dosyalari = glob.glob(os.path.join(mevcut_klasor, "*_ozet.csv"))
+                        if ozet_dosyalari:
+                            df_ozet = pd.read_csv(ozet_dosyalari[0], index_col=0)
+                            if 'Total Return [%]' in df_ozet.index:
+                                val = df_ozet.loc['Total Return [%]'].iloc[0]
+                                if not pd.isna(val):
+                                    sonuclar[modul_adi] = float(val)
+                    except:
+                        pass
+                    continue
+                # ------------------------------------
+
                 print(f"--- [{i}/{toplam_strateji}] {modul_adi.upper()} Çalışıyor ---")
-                
+
                 ozet = fonksiyon(**fonksiyon_argumanlari)
                 sonuclar[modul_adi] = ozet['Total Return [%]']
                 
@@ -128,7 +157,7 @@ for HISSE_KODU in HISSE_LISTESI:
 
 
 print(f"\n{'='*50}")
-print(f"  TÜM HİSSELERİN (40 ADET) ANALİZİ BAŞARIYLA TAMAMLANDI!")
+print(f"  TÜM HİSSELERİN ({len(HISSE_LISTESI)} ADET) ANALİZİ BAŞARIYLA TAMAMLANDI!")
 
 # ============================================================
 #  👑 GENEL ŞAMPİYONLAR EXCELİ (MASTER DOSYA) OLUŞTURMA
