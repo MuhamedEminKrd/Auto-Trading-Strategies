@@ -1,11 +1,11 @@
-,GARAN.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,Close
+Start,2024-08-05 00:00:00
+End,2026-08-03 00:00:00
+Period,502 days 00:00:00
 Start Value,10000.0
-End Value,12155.841127292031
-Total Return [%],21.55841127292031
-Benchmark Return [%],9.597774784456202
+End Value,11672.262557271652
+Total Return [%],16.722625572716517
+Benchmark Return [%],10.767390829166423
 Max Gross Exposure [%],100.0
 Total Fees Paid,168.57942908463644
 Max Drawdown [%],15.845835708189446
@@ -13,7 +13,7 @@ Max Drawdown Duration,142 days 00:00:00
 Total Trades,8
 Total Closed Trades,7
 Total Open Trades,1
-Open Trade PnL,106.16417023139184
+Open Trade PnL,0.0
 Win Rate [%],71.42857142857143
 Best Trade [%],10.588900101775733
 Worst Trade [%],-7.876057312244919
@@ -23,7 +23,7 @@ Avg Winning Trade Duration,7 days 04:48:00
 Avg Losing Trade Duration,28 days 12:00:00
 Profit Factor,2.206944171658472
 Expectancy,292.8109938658054
-Sharpe Ratio,0.765043972998609
-Calmar Ratio,0.9604385335583522
-Omega Ratio,1.2689673062427655
-Sortino Ratio,1.1711773743881015
+Sharpe Ratio,0.6272229126426522
+Calmar Ratio,0.7509499680381054
+Omega Ratio,1.2126474370111848
+Sortino Ratio,0.951735425683138

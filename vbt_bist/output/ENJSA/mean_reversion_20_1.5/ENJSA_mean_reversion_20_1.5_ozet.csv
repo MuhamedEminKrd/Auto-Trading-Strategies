@@ -1,29 +1,29 @@
-,ENJSA.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,Close
+Start,2024-08-05 00:00:00
+End,2026-08-03 00:00:00
+Period,502 days 00:00:00
 Start Value,10000.0
-End Value,12658.621273507635
-Total Return [%],26.58621273507635
-Benchmark Return [%],65.53043320783347
+End Value,13255.10096162273
+Total Return [%],32.5510096162273
+Benchmark Return [%],81.39145590995551
 Max Gross Exposure [%],100.0
-Total Fees Paid,159.94783339674368
+Total Fees Paid,167.01391414750614
 Max Drawdown [%],15.10238686785876
 Max Drawdown Duration,156 days 00:00:00
 Total Trades,7
 Total Closed Trades,7
 Total Open Trades,0
 Open Trade PnL,0.0
-Win Rate [%],71.42857142857143
-Best Trade [%],10.790935050708963
-Worst Trade [%],-7.854092974328624
-Avg Winning Trade [%],7.527549846789443
-Avg Losing Trade [%],-6.0920965663784115
-Avg Winning Trade Duration,23 days 04:48:00
-Avg Losing Trade Duration,48 days 12:00:00
-Profit Factor,2.7602445671937814
-Expectancy,379.8030390725195
-Sharpe Ratio,0.7468429745457033
-Calmar Ratio,1.2354207387066114
-Omega Ratio,1.165058594718014
-Sortino Ratio,1.163819923369767
+Win Rate [%],85.71428571428571
+Best Trade [%],10.790926649429924
+Worst Trade [%],-7.854092974328649
+Avg Winning Trade [%],6.30339460221755
+Avg Losing Trade [%],-7.854092974328649
+Avg Winning Trade Duration,26 days 08:00:00
+Avg Losing Trade Duration,44 days 00:00:00
+Profit Factor,3.884247274098711
+Expectancy,465.01442308896117
+Sharpe Ratio,0.8730579237644446
+Calmar Ratio,1.5056766968464328
+Omega Ratio,1.2012530349267938
+Sortino Ratio,1.3658658774632118

@@ -1,11 +1,11 @@
-,TAVHL.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,0
+Start,2024-08-05 00:00:00
+End,2026-08-03 00:00:00
+Period,502 days 00:00:00
 Start Value,10000.0
 End Value,8713.979653771366
 Total Return [%],-12.860203462286336
-Benchmark Return [%],-0.26790367881498467
+Benchmark Return [%],8.771323433330958
 Max Gross Exposure [%],100.0
 Total Fees Paid,73.35095611197006
 Max Drawdown [%],28.676256115028114
@@ -23,7 +23,7 @@ Avg Winning Trade Duration,93 days 00:00:00
 Avg Losing Trade Duration,23 days 08:00:00
 Profit Factor,0.42976666380129575
 Expectancy,-321.50508655715845
-Sharpe Ratio,-0.34117034324093265
-Calmar Ratio,-0.33150408010564925
+Sharpe Ratio,-0.3415094163787418
+Calmar Ratio,-0.33213195134876117
 Omega Ratio,0.9224291693310273
-Sortino Ratio,-0.44714179625323264
+Sortino Ratio,-0.44758693503569597

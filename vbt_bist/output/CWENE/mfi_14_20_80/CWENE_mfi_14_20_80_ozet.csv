@@ -1,15 +1,15 @@
-,CWENE.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,0
+Start,2024-08-05 00:00:00
+End,2026-08-03 00:00:00
+Period,502 days 00:00:00
 Start Value,10000.0
 End Value,9904.784646310356
 Total Return [%],-0.9521535368964397
-Benchmark Return [%],40.02707121770812
+Benchmark Return [%],44.81171641095014
 Max Gross Exposure [%],100.0
 Total Fees Paid,19.90470933566565
-Max Drawdown [%],27.35949207324076
-Max Drawdown Duration,341 days 00:00:00
+Max Drawdown [%],27.359492073240748
+Max Drawdown Duration,345 days 00:00:00
 Total Trades,1
 Total Closed Trades,1
 Total Open Trades,0
@@ -23,7 +23,7 @@ Avg Winning Trade Duration,
 Avg Losing Trade Duration,81 days 00:00:00
 Profit Factor,0.0
 Expectancy,-95.21535368964386
-Sharpe Ratio,0.07833347882254017
-Calmar Ratio,-0.025286749995831293
-Omega Ratio,1.0284094736811031
-Sortino Ratio,0.11229238413320523
+Sharpe Ratio,0.07841130713874671
+Calmar Ratio,-0.02533694701244379
+Omega Ratio,1.028409473681103
+Sortino Ratio,0.11240417349302723

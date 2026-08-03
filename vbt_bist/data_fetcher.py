@@ -3,7 +3,11 @@ import pandas as pd
 import os
 from datetime import datetime, timedelta
 
-def indir_guncelle(hisse_listesi, data_dir="data"):
+def indir_guncelle(hisse_listesi, data_dir=None):
+    if data_dir is None:
+        # Scriptin bulundugu klasorun (vbt_bist) icindeki 'data' klasoru
+        data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+        
     if not os.path.exists(data_dir):
         os.makedirs(data_dir)
         
@@ -25,7 +29,8 @@ def indir_guncelle(hisse_listesi, data_dir="data"):
                 if son_tarih.date() < bugun.date() - timedelta(days=1):
                     print(f"[{hisse}] Guncelleniyor... Mevcut Son Tarih: {son_tarih.date()}")
                     start_date = (son_tarih + timedelta(days=1)).strftime('%Y-%m-%d')
-                    yeni_veri = yf.download(ticker, start=start_date, progress=False)
+                    # auto_adjust=True eklenerek temettü ve bölünme düzeltmeleri (Adjusted Close) uygulandı
+                    yeni_veri = yf.download(ticker, start=start_date, progress=False, auto_adjust=True)
                     
                     if not yeni_veri.empty:
                         # yfinance son güncellemelerinden dolayı MultiIndex dönüyorsa tek seviyeye indir
@@ -44,7 +49,8 @@ def indir_guncelle(hisse_listesi, data_dir="data"):
             else:
                 # Dosya yoksa 2 yillik bastan indir
                 print(f"[{hisse}] İlk kez indiriliyor...")
-                df = yf.download(ticker, period="2y", progress=False)
+                # auto_adjust=True eklenerek temettü ve bölünme düzeltmeleri uygulandı
+                df = yf.download(ticker, period="2y", progress=False, auto_adjust=True)
                 if not df.empty:
                     # yfinance son güncellemelerinden dolayı MultiIndex dönüyorsa tek seviyeye indir
                     if isinstance(df.columns, pd.MultiIndex):
@@ -67,7 +73,7 @@ if __name__ == "__main__":
         "FROTO", "TOASO", "TTRAK", "ASUZU",
         "SISE", "ENKAI", "BIMAS", "MGROS", "SOKM", 
         "EREGL", "KRDMD", "KCAER", "BRSAN",
-        "ASELS", "KOZAA", "KOZAL", "KORDS", "SASA", "HEKTS", "GUBRF",
+        "ASELS", "KORDS", "SASA", "HEKTS", "GUBRF",
         "EKGYO", "TKFEN", "ENJSA", "ODAS", "ASTOR", "GESAN", "SMRTG", "EUPWR", "CWENE", 
         "MIATK", "CANTE", "QUAGR", "KONTR", "ISMEN", "KMPUR", "ZOREN", "CIMSA",
         "AKSA", "VESBE", "ARCLK", "TUKAS", "LOGO", "ARZUM"

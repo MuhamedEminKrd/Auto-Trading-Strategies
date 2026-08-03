@@ -1,14 +1,14 @@
-,KRDMD.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,Close
+Start,2024-08-05 00:00:00
+End,2026-08-03 00:00:00
+Period,502 days 00:00:00
 Start Value,10000.0
 End Value,12911.050795346262
 Total Return [%],29.110507953462623
-Benchmark Return [%],41.0153656232463
+Benchmark Return [%],52.309988210538826
 Max Gross Exposure [%],100.0
 Total Fees Paid,112.64988923493475
-Max Drawdown [%],12.62432790402957
+Max Drawdown [%],12.624327904029583
 Max Drawdown Duration,136 days 00:00:00
 Total Trades,5
 Total Closed Trades,5
@@ -16,14 +16,14 @@ Total Open Trades,0
 Open Trade PnL,0.0
 Win Rate [%],80.0
 Best Trade [%],10.43961214266003
-Worst Trade [%],-3.4727700308485967
-Avg Winning Trade [%],7.590887017627172
-Avg Losing Trade [%],-3.4727700308485967
+Worst Trade [%],-3.472770030848581
+Avg Winning Trade [%],7.590887017627168
+Avg Losing Trade [%],-3.472770030848581
 Avg Winning Trade Duration,8 days 00:00:00
 Avg Losing Trade Duration,23 days 00:00:00
-Profit Factor,8.491714940716992
-Expectancy,582.2101590692527
-Sharpe Ratio,1.2013671867338303
-Calmar Ratio,1.6135641297983219
-Omega Ratio,1.5864277074172288
-Sortino Ratio,2.0297419758869006
+Profit Factor,8.491714940717028
+Expectancy,582.2101590692528
+Sharpe Ratio,1.2025655319647224
+Calmar Ratio,1.6170862186103074
+Omega Ratio,1.58642770741723
+Sortino Ratio,2.0317626254424366

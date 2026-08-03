@@ -1,29 +1,29 @@
-,TAVHL.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,0
+Start,2024-08-05 00:00:00
+End,2026-08-03 00:00:00
+Period,502 days 00:00:00
 Start Value,10000.0
-End Value,10405.81141563222
-Total Return [%],4.058114156322208
-Benchmark Return [%],-0.26790367881498467
+End Value,10444.821017940118
+Total Return [%],4.448210179401176
+Benchmark Return [%],8.771323433330958
 Max Gross Exposure [%],100.0
 Total Fees Paid,113.48256161590521
-Max Drawdown [%],30.257498066167543
+Max Drawdown [%],30.25749806616755
 Max Drawdown Duration,238 days 00:00:00
 Total Trades,6
 Total Closed Trades,5
 Total Open Trades,1
-Open Trade PnL,-282.7629964088119
+Open Trade PnL,0.0
 Win Rate [%],40.0
 Best Trade [%],22.149984706794896
-Worst Trade [%],-11.420924301395438
+Worst Trade [%],-11.420924301395456
 Avg Winning Trade [%],16.506405029920675
-Avg Losing Trade [%],-7.4899262142849015
+Avg Losing Trade [%],-7.489926214284913
 Avg Winning Trade Duration,76 days 00:00:00
 Avg Losing Trade Duration,19 days 08:00:00
-Profit Factor,1.27751945236219
-Expectancy,137.71488240820673
-Sharpe Ratio,0.24243889559876958
-Calmar Ratio,0.09679049402763291
-Omega Ratio,1.0506837843937598
-Sortino Ratio,0.34366501097901464
+Profit Factor,1.277519452362188
+Expectancy,137.714882408206
+Sharpe Ratio,0.252504439462558
+Calmar Ratio,0.10625421260326678
+Omega Ratio,1.0523700881345133
+Sortino Ratio,0.3575791207403459

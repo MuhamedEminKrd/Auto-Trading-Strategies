@@ -17,8 +17,8 @@ def calistir(kapanis, yuksek, dusuk, baslik):
     # Fiyat yakin zamanda (son 10 gun icinde) bu fraktal direncini kirarsa AL
     al_sinyalleri = (kapanis > fractal_seviyesi) & (kapanis.shift(1) <= fractal_seviyesi.shift(1))
     
-    # Basit Exit: Kapanis 10 gunluk dusugun altina inince SAT
-    stop_loss = dusuk.rolling(10).min()
+    # Basit Exit: Kapanis, bir onceki gunun 10 gunluk en dusugunun altina inerse SAT
+    stop_loss = dusuk.rolling(10).min().shift(1)
     sat_sinyalleri = kapanis < stop_loss
     
     portfoy = vbt.Portfolio.from_signals(

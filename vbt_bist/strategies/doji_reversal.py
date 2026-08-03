@@ -4,9 +4,8 @@ import os
 from strategies.utils import sonuclari_kaydet
 import pandas as pd
 
-def calistir(kapanis, yuksek, dusuk, baslik):
+def calistir(kapanis, yuksek, dusuk, acilis, baslik):
     strateji_adi = "doji_reversal"
-    acilis = kapanis.shift(1) # Acilis verimiz olmadigi icin 
     
     # Doji sarti: Acilis ile kapanis birbirine cok yakin, ama yuksek dusuk arasi genis
     govde_boyu = abs(kapanis - acilis)

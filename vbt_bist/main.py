@@ -10,7 +10,9 @@ import pandas as pd
 import importlib
 import inspect
 import glob
+import traceback
 import warnings
+import subprocess
 
 # Pandas Future Warnings (Sarı Uyarılar) Kapatma
 pd.set_option('future.no_silent_downcasting', True)
@@ -23,8 +25,7 @@ veri_klasoru = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
 if __name__ == "__main__":
 
-    # TÜM HİSSELERİN ŞAMPİYONLARINI TUTACAK LİSTE
-    genel_sampiyonlar = []
+    # ANA DONGU BASLANGICI
 
     # Veri klasöründeki tüm CSV dosyalarını al
     if not os.path.exists(veri_klasoru):
@@ -95,7 +96,8 @@ if __name__ == "__main__":
                     mevcut_klasor = None
                     if os.path.exists(hedef_klasor_strateji):
                         for kl in os.listdir(hedef_klasor_strateji):
-                            if kl.startswith(modul_adi) and os.path.isdir(os.path.join(hedef_klasor_strateji, kl)):
+                            # HATA DUZELTILDI: startswith() benzer isimli klasorleri (orn rsi ve rsi_macd) karistiriyordu. Tam eslesme == yapildi.
+                            if kl == modul_adi and os.path.isdir(os.path.join(hedef_klasor_strateji, kl)):
                                 zaten_var = True
                                 mevcut_klasor = os.path.join(hedef_klasor_strateji, kl)
                                 break
@@ -122,22 +124,13 @@ if __name__ == "__main__":
 
                 except Exception as e:
                     print(f"[HATA] {modul_adi} calisirken hata olustu: {e}")
+                    print(traceback.format_exc())
 
             # SONUÇLAR VE LİSTELEME
             print(f"\n{'='*50}")
             print(f"  {baslik} — STRATEJİ KARŞILAŞTIRMA SONUÇLARI")
 
             sirali_sonuclar = sorted(sonuclar.items(), key=lambda x: x[1], reverse=True)
-
-            # 👑 BU HİSSENİN ŞAMPİYONUNU GENEL LİSTEYE EKLE 👑
-            if sirali_sonuclar:
-                en_iyi_strat = sirali_sonuclar[0][0]
-                en_iyi_getiri = sirali_sonuclar[0][1]
-                genel_sampiyonlar.append({
-                    "Hisse": baslik,
-                    "En Iyi Strateji": en_iyi_strat,
-                    "Kâr / Zarar (%)": round(en_iyi_getiri, 2)
-                })
 
             sonuclar_listesi = []
             for strateji, getiri in sirali_sonuclar:
@@ -159,12 +152,9 @@ if __name__ == "__main__":
     print(f"  TÜM HİSSELERİN ({len(csv_dosyalari)} ADET) ANALİZİ BAŞARIYLA TAMAMLANDI!")
 
     # ============================================================
-    #  👑 GENEL ŞAMPİYONLAR EXCELİ (MASTER DOSYA) OLUŞTURMA
+    #  OTOMATIK TETİKLEME: MASTER RAPOR OLUŞTURUCU
     # ============================================================
-    if genel_sampiyonlar:
-        df_genel = pd.DataFrame(genel_sampiyonlar)
-        df_genel = df_genel.sort_values(by="Kâr / Zarar (%)", ascending=False)
-        genel_excel_yolu = os.path.join("vbt_bist", "output", "Genel_Sampiyonlar.xlsx")
-        df_genel.to_excel(genel_excel_yolu, index=False)
-        print(f"\n  [SAMPİYONLAR] Genel Sampiyonlar Exceli Olusturuldu: {genel_excel_yolu}")
+    print("\n[OTOMATIK TETIKLEME] Motor islemini tamamladi, Master Rapor olusturuluyor...")
+    rapor_script = os.path.join(os.path.dirname(os.path.abspath(__file__)), "master_rapor_olustur.py")
+    subprocess.run(["python", rapor_script])
     print(f"{'='*50}\n")

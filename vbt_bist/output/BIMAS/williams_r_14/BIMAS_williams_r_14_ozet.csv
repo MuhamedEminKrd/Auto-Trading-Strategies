@@ -1,29 +1,29 @@
-,BIMAS.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,505 days 00:00:00
+,0
+Start,2024-08-05 00:00:00
+End,2026-08-03 00:00:00
+Period,504 days 00:00:00
 Start Value,10000.0
-End Value,16369.879131296646
-Total Return [%],63.69879131296646
-Benchmark Return [%],34.12755681348509
+End Value,16571.65883472879
+Total Return [%],65.71658834728791
+Benchmark Return [%],43.830295492799664
 Max Gross Exposure [%],100.0
-Total Fees Paid,398.80227458903875
-Max Drawdown [%],26.149695304792154
+Total Fees Paid,405.5326140040382
+Max Drawdown [%],26.149681261438186
 Max Drawdown Duration,168 days 00:00:00
 Total Trades,16
 Total Closed Trades,16
 Total Open Trades,0
 Open Trade PnL,0.0
-Win Rate [%],75.0
-Best Trade [%],15.266866821039654
-Worst Trade [%],-9.450712990337093
-Avg Winning Trade [%],5.4110323333400565
-Avg Losing Trade [%],-3.0914205000033306
-Avg Winning Trade Duration,11 days 20:00:00
-Avg Losing Trade Duration,20 days 06:00:00
-Profit Factor,5.441117436734773
-Expectancy,398.11744570604037
-Sharpe Ratio,1.2795452144860828
-Calmar Ratio,1.636452802394152
-Omega Ratio,1.3222088410340886
-Sortino Ratio,1.9589685379447341
+Win Rate [%],81.25
+Best Trade [%],15.266874832043545
+Worst Trade [%],-9.450723836271187
+Avg Winning Trade [%],4.991211715516785
+Avg Losing Trade [%],-3.7198840218286087
+Avg Winning Trade Duration,12 days 03:41:32.307692
+Avg Losing Trade Duration,19 days 08:00:00
+Profit Factor,5.929416138215513
+Expectancy,410.7286771705494
+Sharpe Ratio,1.3189719323253568
+Calmar Ratio,1.6890119888659259
+Omega Ratio,1.3423444493782306
+Sortino Ratio,2.0237148180016997

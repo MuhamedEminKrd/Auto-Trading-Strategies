@@ -13,16 +13,11 @@ def calistir(kapanis, baslik, hizli=10, yavas=30):
     strateji_adi = "hp_filter_ma"
     
     # NaN degerleri dolduralim (Eger veride hata varsa filtre patlamasin diye)
-    fiyat = kapanis.fillna(method='ffill').fillna(method='bfill')
+    fiyat = kapanis.ffill().bfill()
     
-    try:
-        # HP Filter genelde statsmodels icinde hazir gelir.
-        from statsmodels.tsa.filters.hp_filter import hpfilter
-        # Günlük veri için lambda genelde 1600 (veya daha puruzsuz bir trend icin 14400) secilebilir.
-        cycle, trend = hpfilter(fiyat, lamb=1600)
-    except ImportError:
-        # Eger ortamda statsmodels yüklü değilse, fallback olarak saf trendi çok yumuşatılmış EMA ile hesapla
-        trend = fiyat.ewm(span=5, adjust=False).mean()
+    # HP Filter (Hodrick-Prescott) tüm zaman serisini hesaplamaya kattığı için Lookahead Bias (Geleceği Görme) yaratır.
+    # Bu nedenle kaldırıldı. Yerine saf trendi çok yumuşatılmış EMA ile hesaplıyoruz.
+    trend = fiyat.ewm(span=5, adjust=False).mean()
 
     # Pürüzsüzleştirilmiş "saf trend" üzerinden hareketli ortalamalar
     hizli_ma = trend.rolling(hizli).mean()

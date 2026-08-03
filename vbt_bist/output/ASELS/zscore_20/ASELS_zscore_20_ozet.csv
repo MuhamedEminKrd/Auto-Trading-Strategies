@@ -1,11 +1,11 @@
-,ASELS.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,Close
+Start,2024-08-05 00:00:00
+End,2026-08-03 00:00:00
+Period,502 days 00:00:00
 Start Value,10000.0
-End Value,10988.444388925012
-Total Return [%],9.884443889250123
-Benchmark Return [%],480.2331263127937
+End Value,10988.444388925014
+Total Return [%],9.884443889250143
+Benchmark Return [%],496.4452580992111
 Max Gross Exposure [%],100.0
 Total Fees Paid,62.073479759595095
 Max Drawdown [%],7.256097560975612
@@ -15,15 +15,15 @@ Total Closed Trades,3
 Total Open Trades,0
 Open Trade PnL,0.0
 Win Rate [%],66.66666666666666
-Best Trade [%],7.303344337136472
-Worst Trade [%],-0.5783518619339355
-Avg Winning Trade [%],5.15694471849627
-Avg Losing Trade [%],-0.5783518619339355
+Best Trade [%],7.303344337136471
+Worst Trade [%],-0.5783518619339179
+Avg Winning Trade [%],5.156944718496269
+Avg Losing Trade [%],-0.5783518619339179
 Avg Winning Trade Duration,8 days 00:00:00
 Avg Losing Trade Duration,17 days 00:00:00
-Profit Factor,17.608299750915812
-Expectancy,329.4814629750045
-Sharpe Ratio,0.5486565606844457
-Calmar Ratio,0.9756238158780126
-Omega Ratio,1.3893686455824028
-Sortino Ratio,1.0039358029364953
+Profit Factor,17.60829975091635
+Expectancy,329.48146297500506
+Sharpe Ratio,0.5492021218487265
+Calmar Ratio,0.9776346498373417
+Omega Ratio,1.389368645582403
+Sortino Ratio,1.0049352415144477

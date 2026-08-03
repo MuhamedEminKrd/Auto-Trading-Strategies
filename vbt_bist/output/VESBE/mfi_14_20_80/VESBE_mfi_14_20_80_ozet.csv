@@ -1,19 +1,19 @@
-,VESBE.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,0
+Start,2024-08-05 00:00:00
+End,2026-08-03 00:00:00
+Period,502 days 00:00:00
 Start Value,10000.0
-End Value,4175.211379764285
-Total Return [%],-58.247886202357144
-Benchmark Return [%],-70.91088794990851
+End Value,3989.1871217535736
+Total Return [%],-60.10812878246426
+Benchmark Return [%],-69.41447425029561
 Max Gross Exposure [%],100.0
 Total Fees Paid,25.967035414547812
-Max Drawdown [%],58.38568182735372
-Max Drawdown Duration,327 days 00:00:00
+Max Drawdown [%],60.10812878246426
+Max Drawdown Duration,331 days 00:00:00
 Total Trades,2
 Total Closed Trades,1
 Total Open Trades,1
-Open Trade PnL,-3813.293343992521
+Open Trade PnL,0.0
 Win Rate [%],0.0
 Best Trade [%],-20.135067715194367
 Worst Trade [%],-20.135067715194367
@@ -23,7 +23,7 @@ Avg Winning Trade Duration,
 Avg Losing Trade Duration,82 days 00:00:00
 Profit Factor,0.0
 Expectancy,-2011.4952762431935
-Sharpe Ratio,-1.7671021208491282
-Calmar Ratio,-0.8040070161175163
-Omega Ratio,0.711897241551504
-Sortino Ratio,-2.398899346771269
+Sharpe Ratio,-1.862943607746105
+Calmar Ratio,-0.8108174507346033
+Omega Ratio,0.7008699576382655
+Sortino Ratio,-2.5204688562158553

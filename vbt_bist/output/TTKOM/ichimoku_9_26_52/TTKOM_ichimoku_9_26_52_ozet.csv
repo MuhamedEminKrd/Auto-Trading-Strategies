@@ -1,29 +1,29 @@
-,TTKOM.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,0
+Start,2024-08-05 00:00:00
+End,2026-08-03 00:00:00
+Period,502 days 00:00:00
 Start Value,10000.0
-End Value,7266.862256656284
-Total Return [%],-27.331377433437154
-Benchmark Return [%],11.875001589456957
+End Value,7266.862256656281
+Total Return [%],-27.331377433437194
+Benchmark Return [%],3.680979920027161
 Max Gross Exposure [%],100.0
 Total Fees Paid,146.30923678666
-Max Drawdown [%],40.19741497647699
-Max Drawdown Duration,339 days 00:00:00
+Max Drawdown [%],40.19741497647701
+Max Drawdown Duration,343 days 00:00:00
 Total Trades,8
 Total Closed Trades,8
 Total Open Trades,0
 Open Trade PnL,0.0
 Win Rate [%],25.0
-Best Trade [%],6.046578784287188
-Worst Trade [%],-14.589992389132142
-Avg Winning Trade [%],5.867062124346973
-Avg Losing Trade [%],-6.897085836461317
+Best Trade [%],6.0465787842871705
+Worst Trade [%],-14.589992389132131
+Avg Winning Trade [%],5.867062124346956
+Avg Losing Trade [%],-6.897085836461321
 Avg Winning Trade Duration,83 days 12:00:00
 Avg Losing Trade Duration,10 days 12:00:00
-Profit Factor,0.28484236889254805
-Expectancy,-341.64221791796456
-Sharpe Ratio,-0.5859721014371873
-Calmar Ratio,-0.5144417210432992
-Omega Ratio,0.8852745187206478
-Sortino Ratio,-0.7611868311799772
+Profit Factor,0.2848423688925471
+Expectancy,-341.642217917965
+Sharpe Ratio,-0.5865548355196123
+Calmar Ratio,-0.5153521686295478
+Omega Ratio,0.8852745187206482
+Sortino Ratio,-0.7619446082030569

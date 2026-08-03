@@ -1,29 +1,29 @@
-,EKGYO.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,Close
+Start,2024-08-05 00:00:00
+End,2026-08-03 00:00:00
+Period,502 days 00:00:00
 Start Value,10000.0
-End Value,13082.1886380297
-Total Return [%],30.821886380297002
-Benchmark Return [%],65.53737071191144
+End Value,12143.834199135927
+Total Return [%],21.438341991359266
+Benchmark Return [%],76.04895479037772
 Max Gross Exposure [%],100.0
-Total Fees Paid,190.24475669651207
-Max Drawdown [%],25.238165840879507
+Total Fees Paid,190.24478584150617
+Max Drawdown [%],25.238153182532653
 Max Drawdown Duration,286 days 00:00:00
 Total Trades,9
 Total Closed Trades,8
 Total Open Trades,1
-Open Trade PnL,-520.1631888284719
+Open Trade PnL,0.0
 Win Rate [%],62.5
-Best Trade [%],20.413193573435578
-Worst Trade [%],-9.667264452064286
-Avg Winning Trade [%],10.99901336622274
-Avg Losing Trade [%],-6.683956642316156
+Best Trade [%],20.41319357343554
+Worst Trade [%],-9.667264452064297
+Avg Winning Trade [%],10.9990149129739
+Avg Losing Trade [%],-6.683953539487557
 Avg Winning Trade Duration,12 days 19:12:00
 Avg Losing Trade Duration,34 days 00:00:00
-Profit Factor,2.537166560668319
-Expectancy,450.2939783572717
-Sharpe Ratio,0.7806942220803696
-Calmar Ratio,0.8529088481052103
-Omega Ratio,1.2018083189336304
-Sortino Ratio,1.1316271532756874
+Profit Factor,2.53716794281208
+Expectancy,450.29426624361247
+Sharpe Ratio,0.6068588305881962
+Calmar Ratio,0.6010220880457082
+Omega Ratio,1.1517531203396383
+Sortino Ratio,0.8724302123260292
