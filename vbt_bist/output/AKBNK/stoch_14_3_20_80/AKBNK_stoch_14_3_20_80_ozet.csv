@@ -1,14 +1,14 @@
-,AKBNK.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,0
+Start,2024-07-31 00:00:00
+End,2026-07-31 00:00:00
+Period,505 days 00:00:00
 Start Value,10000.0
-End Value,11962.989716337317
-Total Return [%],19.62989716337317
-Benchmark Return [%],11.382475153248484
+End Value,11962.989716337328
+Total Return [%],19.62989716337328
+Benchmark Return [%],4.996008049312373
 Max Gross Exposure [%],100.0
-Total Fees Paid,194.6760973585527
-Max Drawdown [%],23.571000621280085
+Total Fees Paid,194.67609735855277
+Max Drawdown [%],23.57100062128002
 Max Drawdown Duration,272 days 00:00:00
 Total Trades,9
 Total Closed Trades,9
@@ -17,13 +17,13 @@ Open Trade PnL,0.0
 Win Rate [%],88.88888888888889
 Best Trade [%],8.961802275789829
 Worst Trade [%],-6.767337633530464
-Avg Winning Trade [%],3.195000916644934
+Avg Winning Trade [%],3.195000916644946
 Avg Losing Trade [%],-6.767337633530464
 Avg Winning Trade Duration,24 days 03:00:00
 Avg Losing Trade Duration,31 days 00:00:00
-Profit Factor,3.6649904953729755
-Expectancy,218.10996848192437
-Sharpe Ratio,0.5500281339363357
-Calmar Ratio,0.5892667924437773
-Omega Ratio,1.1232439315252234
-Sortino Ratio,0.8081353773533424
+Profit Factor,3.66499049537299
+Expectancy,218.10996848192556
+Sharpe Ratio,0.5489391513760715
+Calmar Ratio,0.5867786528808259
+Omega Ratio,1.1232439315252238
+Sortino Ratio,0.8065335217102825

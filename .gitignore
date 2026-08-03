@@ -12,6 +12,8 @@ venv/
 vbt_bist/output/**/*.png
 vbt_bist/output/**/*.html
 vbt_bist/output/**/*.csv
+data/
+vbt_bist/data/
 # VS Code
 .vscode/
 

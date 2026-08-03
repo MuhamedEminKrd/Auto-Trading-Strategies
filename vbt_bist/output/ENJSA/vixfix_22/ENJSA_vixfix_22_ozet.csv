@@ -1,29 +1,29 @@
-,ENJSA.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,0
+Start,2024-07-31 00:00:00
+End,2026-07-31 00:00:00
+Period,505 days 00:00:00
 Start Value,10000.0
 End Value,13824.82383450866
 Total Return [%],38.24823834508659
-Benchmark Return [%],65.53043320783347
+Benchmark Return [%],77.22923361953073
 Max Gross Exposure [%],100.0
-Total Fees Paid,268.47632626934893
-Max Drawdown [%],11.34811925655324
+Total Fees Paid,268.476326269349
+Max Drawdown [%],11.34811925655325
 Max Drawdown Duration,52 days 00:00:00
 Total Trades,11
 Total Closed Trades,11
 Total Open Trades,0
 Open Trade PnL,0.0
 Win Rate [%],90.9090909090909
-Best Trade [%],8.155799978546865
-Worst Trade [%],-5.149426298276899
-Avg Winning Trade [%],3.875351271609336
-Avg Losing Trade [%],-5.149426298276899
+Best Trade [%],8.155799978546849
+Worst Trade [%],-5.149426298276911
+Avg Winning Trade [%],3.8753512716093383
+Avg Losing Trade [%],-5.149426298276911
 Avg Winning Trade Duration,6 days 14:24:00
 Avg Losing Trade Duration,18 days 00:00:00
-Profit Factor,6.101414092784252
-Expectancy,347.7112576826051
-Sharpe Ratio,1.3236923577704878
-Calmar Ratio,2.3346387307395657
+Profit Factor,6.10141409278424
+Expectancy,347.71125768260504
+Sharpe Ratio,1.3210612127781156
+Calmar Ratio,2.3242684219733953
 Omega Ratio,1.5699490563116212
-Sortino Ratio,2.355757185315501
+Sortino Ratio,2.3510876917544774

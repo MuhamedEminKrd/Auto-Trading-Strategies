@@ -1,29 +1,29 @@
-,VESBE.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,0
+Start,2024-07-31 00:00:00
+End,2026-07-31 00:00:00
+Period,505 days 00:00:00
 Start Value,10000.0
-End Value,6783.946870075277
-Total Return [%],-32.16053129924723
-Benchmark Return [%],-70.91088794990851
+End Value,6783.946870075272
+Total Return [%],-32.160531299247275
+Benchmark Return [%],-70.95750023224416
 Max Gross Exposure [%],100.0
-Total Fees Paid,191.26675464588706
-Max Drawdown [%],35.42778681008236
-Max Drawdown Duration,395 days 00:00:00
+Total Fees Paid,191.26675464588703
+Max Drawdown [%],35.42778681008241
+Max Drawdown Duration,399 days 00:00:00
 Total Trades,12
 Total Closed Trades,12
 Total Open Trades,0
 Open Trade PnL,0.0
 Win Rate [%],50.0
-Best Trade [%],6.6402253436933805
+Best Trade [%],6.640225343693371
 Worst Trade [%],-13.651021554194475
-Avg Winning Trade [%],2.458028185869778
-Avg Losing Trade [%],-8.38832249212364
+Avg Winning Trade [%],2.4580281858697717
+Avg Losing Trade [%],-8.388322492123645
 Avg Winning Trade Duration,7 days 00:00:00
 Avg Losing Trade Duration,21 days 00:00:00
-Profit Factor,0.24786816313769716
-Expectancy,-268.00442749372723
-Sharpe Ratio,-1.2231289776918446
-Calmar Ratio,-0.6926811252749957
-Omega Ratio,0.7369029606072665
-Sortino Ratio,-1.6098336289436896
+Profit Factor,0.24786816313769625
+Expectancy,-268.0044274937276
+Sharpe Ratio,-1.2206994251895893
+Calmar Ratio,-0.6903046221803208
+Omega Ratio,0.7369029606072663
+Sortino Ratio,-1.6066426770868854

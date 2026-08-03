@@ -1,13 +1,13 @@
-,ASTOR.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,0
+Start,2024-07-31 00:00:00
+End,2026-07-31 00:00:00
+Period,505 days 00:00:00
 Start Value,10000.0
-End Value,18122.28655392707
-Total Return [%],81.22286553927071
-Benchmark Return [%],206.3164385329043
+End Value,18122.286553927068
+Total Return [%],81.22286553927069
+Benchmark Return [%],213.86152319521216
 Max Gross Exposure [%],100.0
-Total Fees Paid,304.80550762223066
+Total Fees Paid,304.8055076222307
 Max Drawdown [%],33.06842745506028
 Max Drawdown Duration,277 days 00:00:00
 Total Trades,11
@@ -16,14 +16,14 @@ Total Open Trades,0
 Open Trade PnL,0.0
 Win Rate [%],63.63636363636363
 Best Trade [%],51.30435251506478
-Worst Trade [%],-13.190425750973958
-Avg Winning Trade [%],15.996067233876563
+Worst Trade [%],-13.190425750973962
+Avg Winning Trade [%],15.996067233876559
 Avg Losing Trade [%],-8.661291675234095
 Avg Winning Trade Duration,14 days 03:25:42.857142
 Avg Losing Trade Duration,24 days 12:00:00
-Profit Factor,2.419758192229406
-Expectancy,738.3896867206427
-Sharpe Ratio,1.256523890651203
-Calmar Ratio,1.6313751174509445
-Omega Ratio,1.3176383476007139
-Sortino Ratio,2.0325244033782797
+Profit Factor,2.419758192229405
+Expectancy,738.3896867206424
+Sharpe Ratio,1.2540274399462765
+Calmar Ratio,1.6234273708279736
+Omega Ratio,1.317638347600714
+Sortino Ratio,2.028495609717647

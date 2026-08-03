@@ -7,6 +7,7 @@ Veri     : Sadece Kapanış (Close) fiyatı
 """
 import vectorbt as vbt
 import os
+from strategies.utils import sonuclari_kaydet
 
 
 def calistir(kapanis_fiyatlari, baslik, hizli_periyot=5, orta_periyot=20, yavas_periyot=50):
@@ -37,31 +38,7 @@ def calistir(kapanis_fiyatlari, baslik, hizli_periyot=5, orta_periyot=20, yavas_
     portfoy = vbt.Portfolio.from_signals(
         kapanis_fiyatlari,
         entries=al_sinyalleri.astype(bool),
-        exits=sat_sinyalleri.astype(bool),
-        init_cash=10000,
-        fees=0.001, slippage=0.002, freq='1d'
-    )
+        exits=sat_sinyalleri.astype(bool))
 
     # --- Çıktıları Kaydet ---
-    klasor = os.path.join("vbt_bist", "output", baslik, strateji_adi)
-    os.makedirs(klasor, exist_ok=True)
-
-    portfoy.stats().to_csv(
-        os.path.join(klasor, f"{baslik}_{strateji_adi}_ozet.csv")
-    )
-    portfoy.trades.records_readable.to_csv(
-        os.path.join(klasor, f"{baslik}_{strateji_adi}_islemler.csv")
-    )
-
-    fig = portfoy.plot(
-        title=f"{baslik} — Üçlü Ortalama ({hizli_periyot}/{orta_periyot}/{yavas_periyot}) | vectorbt Backtest"
-    )
-    fig.write_html(
-        os.path.join(klasor, f"{baslik}_{strateji_adi}_grafik.html")
-    )
-    fig.write_image(
-        os.path.join(klasor, f"{baslik}_{strateji_adi}_vbt.png"),
-        width=1400, height=900
-    )
-
-    return portfoy.stats()
+    return sonuclari_kaydet(portfoy, baslik, strateji_adi)

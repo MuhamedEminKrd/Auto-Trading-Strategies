@@ -7,6 +7,7 @@ import vectorbt as vbt
 import pandas as pd
 import numpy as np
 import os
+from strategies.utils import sonuclari_kaydet
 
 def calistir(yuksek, dusuk, kapanis, baslik, periyot=10, carpan=3.0):
     strateji_adi = f"supertrend_{periyot}_{carpan}"
@@ -50,19 +51,6 @@ def calistir(yuksek, dusuk, kapanis, baslik, periyot=10, carpan=3.0):
     portfoy = vbt.Portfolio.from_signals(
         kapanis,
         entries=al_sinyalleri.astype(bool),
-        exits=sat_sinyalleri.astype(bool),
-        init_cash=10000,
-        fees=0.001, slippage=0.002, freq='1d'
-    )
+        exits=sat_sinyalleri.astype(bool))
 
-    klasor = os.path.join("vbt_bist", "output", baslik, strateji_adi)
-    os.makedirs(klasor, exist_ok=True)
-
-    portfoy.stats().to_csv(os.path.join(klasor, f"{baslik}_{strateji_adi}_ozet.csv"))
-    portfoy.trades.records_readable.to_csv(os.path.join(klasor, f"{baslik}_{strateji_adi}_islemler.csv"))
-
-    fig = portfoy.plot(title=f"{baslik} - SuperTrend ({periyot}-{carpan})")
-    fig.write_html(os.path.join(klasor, f"{baslik}_{strateji_adi}_grafik.html"))
-    fig.write_image(os.path.join(klasor, f"{baslik}_{strateji_adi}_vbt.png"), width=1400, height=900)
-
-    return portfoy.stats()
+    return sonuclari_kaydet(portfoy, baslik, strateji_adi)

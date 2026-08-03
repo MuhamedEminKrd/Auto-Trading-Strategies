@@ -1,11 +1,11 @@
-,KCHOL.IS
-Start,2024-07-29 00:00:00
-End,2026-07-27 00:00:00
-Period,503 days 00:00:00
+,0
+Start,2024-07-31 00:00:00
+End,2026-07-31 00:00:00
+Period,505 days 00:00:00
 Start Value,10000.0
-End Value,13526.020488605069
-Total Return [%],35.26020488605069
-Benchmark Return [%],-1.140974604852052
+End Value,13526.020488605056
+Total Return [%],35.26020488605056
+Benchmark Return [%],-3.3326439604970393
 Max Gross Exposure [%],100.0
 Total Fees Paid,268.6021393436076
 Max Drawdown [%],21.55428402102554
@@ -15,15 +15,15 @@ Total Closed Trades,12
 Total Open Trades,0
 Open Trade PnL,0.0
 Win Rate [%],75.0
-Best Trade [%],17.989342230274197
+Best Trade [%],17.98934223027418
 Worst Trade [%],-10.250693379667213
-Avg Winning Trade [%],5.274612396117533
+Avg Winning Trade [%],5.274612396117523
 Avg Losing Trade [%],-4.8069053661605
 Avg Winning Trade Duration,21 days 00:00:00
 Avg Losing Trade Duration,24 days 00:00:00
-Profit Factor,3.353318758396284
-Expectancy,293.83504071708904
-Sharpe Ratio,0.8638845358341896
-Calmar Ratio,1.1368469388426587
-Omega Ratio,1.1817225916209153
-Sortino Ratio,1.3318894150412648
+Profit Factor,3.3533187583962754
+Expectancy,293.835040717088
+Sharpe Ratio,0.8621721130816379
+Calmar Ratio,1.1318353572831015
+Omega Ratio,1.1817225783218996
+Sortino Ratio,1.3292494150753702
