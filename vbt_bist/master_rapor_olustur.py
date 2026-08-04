@@ -54,9 +54,28 @@ def master_raporu_olustur():
             avg_lose_trade = get_val("Avg Losing Trade [%]")
             expectancy = get_val("Expectancy")
             
+            # --- YENI AKADEMIK METRIKLER ---
+            alfa = 0.0
+            if isinstance(kâr_zarar, float) and isinstance(benchmark_return, float):
+                alfa = kâr_zarar - benchmark_return
+
+            risk_adjusted = 0.0
+            if isinstance(kâr_zarar, float) and isinstance(max_drawdown, float) and max_drawdown != 0:
+                risk_adjusted = kâr_zarar / abs(max_drawdown)
+
+            akademik_statu = " + İstatistiki Olarak Güvenilir"
+            if islem_sayisi < 10:
+                akademik_statu = " - Yetersiz Veri / Şans"
+            elif profit_factor == float('inf') or profit_factor > 15:
+                akademik_statu = " | Overfitting Şüphesi"
+            # --------------------------------
+            
             tum_veriler.append({
                 "Hisse": hisse,
                 "Strateji": strateji,
+                "Akademik Geçerlilik": akademik_statu,
+                "Alfa (α) Piyasayı Yenme": round(alfa, 2),
+                "Risk-Ayarlı Getiri": round(risk_adjusted, 2),
                 "Kâr / Zarar (%)": round(kâr_zarar, 2) if isinstance(kâr_zarar, float) else kâr_zarar,
                 "Benchmark Getiri (%)": round(benchmark_return, 2) if isinstance(benchmark_return, float) else benchmark_return,
                 "Profit Factor": round(profit_factor, 2) if isinstance(profit_factor, float) else profit_factor,
@@ -89,7 +108,7 @@ def master_raporu_olustur():
     # Kâra göre büyükten küçüğe sırala
     df_master = df_master.sort_values(by="Kâr / Zarar (%)", ascending=False)
     
-    kayit_yolu = os.path.join(output_klasoru, "Tum_Strateji_Metrikleri_Master.xlsx")
+    kayit_yolu = os.path.join(output_klasoru, "Tum_Strateji_Metrikleri.xlsx")
     df_master.to_excel(kayit_yolu, index=False)
     print(f"[MASTER EXCEL] OLUŞTURULDU: {kayit_yolu}")
 

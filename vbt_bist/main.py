@@ -50,6 +50,10 @@ if __name__ == "__main__":
         try:
             # Pandas ile yerel disken veriyi oku (İnternetsiz O(1) okuma hızı)
             veri = pd.read_csv(dosya_yolu, index_col='Date', parse_dates=True)
+            
+            # Veri Doğrulama Katmanı: NaN değerleri temizle
+            veri = veri.ffill().bfill()
+            
             kapanis = veri['Close']
             acilis = veri['Open']
             yuksek = veri['High']
