@@ -1,7 +1,7 @@
 ,0
 Start,2024-08-05 00:00:00
-End,2026-08-03 00:00:00
-Period,502 days 00:00:00
+End,2026-08-05 00:00:00
+Period,504 days 00:00:00
 Start Value,10000.0
 End Value,15092.0114930618
 Total Return [%],50.920114930618
@@ -23,7 +23,7 @@ Avg Winning Trade Duration,322 days 00:00:00
 Avg Losing Trade Duration,
 Profit Factor,inf
 Expectancy,4552.972988080675
-Sharpe Ratio,1.0007805852252727
-Calmar Ratio,1.2395840187255767
-Omega Ratio,1.1689685808344763
-Sortino Ratio,1.5158913326550665
+Sharpe Ratio,0.9984746881537226
+Calmar Ratio,1.2338957380320104
+Omega Ratio,1.1684600254976762
+Sortino Ratio,1.5122988269395314

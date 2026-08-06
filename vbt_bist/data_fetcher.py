@@ -47,10 +47,10 @@ def indir_guncelle(hisse_listesi, data_dir=None):
                 else:
                     print(f"[{hisse}] Zaten guncel. (Son Veri: {son_tarih.date()})")
             else:
-                # Dosya yoksa 2 yillik bastan indir
+                # Dosya yoksa 5 yillik bastan indir
                 print(f"[{hisse}] İlk kez indiriliyor...")
                 # auto_adjust=True eklenerek temettü ve bölünme düzeltmeleri uygulandı
-                df = yf.download(ticker, period="2y", progress=False, auto_adjust=True)
+                df = yf.download(ticker, period="5y", progress=False, auto_adjust=True)
                 if not df.empty:
                     # yfinance son güncellemelerinden dolayı MultiIndex dönüyorsa tek seviyeye indir
                     if isinstance(df.columns, pd.MultiIndex):
@@ -65,18 +65,21 @@ def indir_guncelle(hisse_listesi, data_dir=None):
 
 if __name__ == "__main__":
     bist100 = [
-        "AKBNK", "GARAN", "ISCTR", "YKBNK", "HALKB", "VAKBN", "TSKB", "ALBRK", 
+        "AKBNK", "GARAN", "ISCTR", "YKBNK", "HALKB", "VAKBN", "TSKB", "ALBRK", "SKBNK", "ISFIN",
         "THYAO", "PGSUS", "TAVHL", "DOAS", 
         "TCELL", "TTKOM", 
-        "KCHOL", "SAHOL", "DOHOL", "ALARK", "OYAKC",
-        "TUPRS", "PETKM", "AYGAZ",
-        "FROTO", "TOASO", "TTRAK", "ASUZU",
-        "SISE", "ENKAI", "BIMAS", "MGROS", "SOKM", 
-        "EREGL", "KRDMD", "KCAER", "BRSAN",
-        "ASELS", "KORDS", "SASA", "HEKTS", "GUBRF",
-        "EKGYO", "TKFEN", "ENJSA", "ODAS", "ASTOR", "GESAN", "SMRTG", "EUPWR", "CWENE", 
-        "MIATK", "CANTE", "QUAGR", "KONTR", "ISMEN", "KMPUR", "ZOREN", "CIMSA",
-        "AKSA", "VESBE", "ARCLK", "TUKAS", "LOGO", "ARZUM"
+        "KCHOL", "SAHOL", "DOHOL", "ALARK", "OYAKC", "AGHOL", "GSDHO",
+        "TUPRS", "PETKM", "AYGAZ", "TRCAS",
+        "FROTO", "TOASO", "TTRAK", "ASUZU", "KARSN",
+        "SISE", "ENKAI", "BIMAS", "MGROS", "SOKM", "CCOLA", "AEFES",
+        "EREGL", "KRDMD", "KCAER", "BRSAN", "CEMTS", "IZMDC",
+        "ASELS", "KORDS", "SASA", "HEKTS", "GUBRF", "BAGFS",
+        "EKGYO", "ISGYO", "TRGYO", "HLGYO", 
+        "TKFEN", "ENJSA", "ODAS", "ASTOR", "GESAN", "SMRTG", "EUPWR", "CWENE", "ZOREN", "AKENR", "GWIND",
+        "MIATK", "CANTE", "QUAGR", "KONTR", "ISMEN", "KMPUR", "CIMSA", "AKCNS", "BUCIM",
+        "AKSA", "VESBE", "ARCLK", "TUKAS", "LOGO", "ARZUM", "ALGYO",
+        "EGEEN", "ECILC", "DEVA", "GENIL",
+        "BERA", "AHGAZ", "KLRHO", "YYLGD", "SUWEN", "KZBGY", "ALFAS"
     ]
     bist100 = list(set(bist100))
     print(f"Toplam {len(bist100)} hisse kontrol ediliyor...")

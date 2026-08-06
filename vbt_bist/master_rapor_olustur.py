@@ -64,10 +64,10 @@ def master_raporu_olustur():
                 risk_adjusted = kâr_zarar / abs(max_drawdown)
 
             akademik_statu = " + İstatistiki Olarak Güvenilir"
-            if islem_sayisi < 10:
-                akademik_statu = " - Yetersiz Veri / Şans"
-            elif profit_factor == float('inf') or profit_factor > 15:
-                akademik_statu = " | Overfitting Şüphesi"
+            if islem_sayisi < 25:
+                akademik_statu = " - Yetersiz Veri /(N < 25)"
+            elif profit_factor == float('inf') or profit_factor > 10:
+                akademik_statu = " | Overfitting Şüphesi (PF > 10)"
             # --------------------------------
             
             tum_veriler.append({

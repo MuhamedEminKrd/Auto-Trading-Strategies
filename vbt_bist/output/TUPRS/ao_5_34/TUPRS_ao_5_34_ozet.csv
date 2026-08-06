@@ -1,11 +1,11 @@
 ,0
 Start,2024-08-05 00:00:00
-End,2026-08-03 00:00:00
-Period,502 days 00:00:00
+End,2026-08-05 00:00:00
+Period,504 days 00:00:00
 Start Value,10000.0
-End Value,15548.185784044326
-Total Return [%],55.48185784044326
-Benchmark Return [%],130.8053603664881
+End Value,16344.490437914652
+Total Return [%],63.444904379146514
+Benchmark Return [%],142.62612101025786
 Max Gross Exposure [%],100.0
 Total Fees Paid,165.65630209308253
 Max Drawdown [%],18.437043353077144
@@ -13,7 +13,7 @@ Max Drawdown Duration,149 days 00:00:00
 Total Trades,8
 Total Closed Trades,7
 Total Open Trades,1
-Open Trade PnL,2151.766948904293
+Open Trade PnL,2948.0716027746184
 Win Rate [%],42.857142857142854
 Best Trade [%],38.97035033960068
 Worst Trade [%],-7.438134833653814
@@ -23,7 +23,7 @@ Avg Winning Trade Duration,57 days 08:00:00
 Avg Losing Trade Duration,21 days 06:00:00
 Profit Factor,2.9939141932118134
 Expectancy,485.2026907342906
-Sharpe Ratio,1.1962330952820557
-Calmar Ratio,2.0522771845336734
-Omega Ratio,1.253800785283013
-Sortino Ratio,1.7984711588188527
+Sharpe Ratio,1.3047327940074231
+Calmar Ratio,2.317788673464615
+Omega Ratio,1.2792935845714004
+Sortino Ratio,1.9751863083270662
