@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>📈 BIST Algorithmic Trading & Quantitative Dashboard</h1>
+  <h1>📈 AutoTradingStrategies: BIST Algorithmic Trading & Quantitative Dashboard</h1>
   <p><strong>Borsa İstanbul (BIST) İçin Geliştirilmiş, Vektörize Tabanlı Yüksek Hızlı Backtest Motoru ve Kantitatif Veri Terminali</strong></p>
 
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
