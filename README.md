@@ -27,6 +27,13 @@ Sistemin sıradan borsa tarama yazılımlarından ayrılan en büyük özelliği
 2. **Çalışma Zamanı Müdahalesi (Monkey-Patching):** Kullanıcı arayüzde bir grafiğe tıkladığında, arka plan (backend) diske (Excel/CSV) gereksiz dosya yazma işlemlerini durdurur. İlgili stratejinin Python koduna "havada (runtime)" müdahale ederek sonucu sadece RAM üzerinde yakalar ve grafiği milisaniyeler içinde ekrana çizer.
 3. **Akademik Eleme Mantığı:** Karlı görünen her strateji başarılı kabul edilmez. Sistem arka planda sonuçları Merkezi Limit Teoremi'ne göre filtreler; yeterli işlem sayısına (N > 25) ulaşmamış şans eseri kazançları ve geçmiş veriyi ezberlemiş (Overfitting / PF > 10) yanıltıcı modelleri otomatik olarak işaretler.
 
+## 💻 Kullanıcı Arayüzü (Dashboard) Özellikleri
+Geliştirilen ön yüz, sıradan bir tablodan ziyade interaktif bir finansal terminal olarak çalışır:
+- **Dinamik Sütun Filtreleme:** Her bir sütunun altında yer alan özel filtreler sayesinde veriler anlık olarak elenir. Örneğin; `Sharpe Ratio > 1.5`, `Max Drawdown < -20` ve `Win Rate > 60` gibi kompleks sorgular aynı anda çalıştırılabilir.
+- **Canlı Grafik Çizimi (Plotly):** Tablodaki herhangi bir strateji satırına tıklandığında, o stratejinin tüm al/sat (buy/sell) noktaları ve portföy büyüme eğrisi, interaktif bir grafik üzerinde (zoom, pan, hover destekli) saniyeler içinde ekrana gelir.
+- **Excel'e İhraç (Export):** Ekranda uyguladığınız tüm dinamik filtrelerin sonucunda kalan veri seti, tek tıkla cihazınıza `.xlsx` formatında indirilebilir.
+- **Sıralama (Sorting):** Herhangi bir metriğe (örn: En Yüksek Kâr, En Düşük Drawdown) göre tek tıkla büyükten küçüğe / küçükten büyüğe sıralama yapılabilir.
+
 ## 🏗️ Mimari Yapı (Architecture)
 Proje, her biri kendi alanında uzmanlaşmış modern bir 3-katmanlı (3-Tier) mimari üzerine inşa edilmiştir:
 
