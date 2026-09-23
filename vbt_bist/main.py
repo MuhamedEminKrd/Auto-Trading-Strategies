@@ -16,7 +16,7 @@ import subprocess
 import multiprocessing
 from concurrent.futures import ProcessPoolExecutor, as_completed
 
-# Pandas Future Warnings (Sarı Uyarılar) Kapatma
+
 pd.set_option('future.no_silent_downcasting', True)
 warnings.filterwarnings('ignore')
 
@@ -34,10 +34,8 @@ def hisse_analiz_et(csv_dosyasi):
     dosya_yolu = os.path.join(veri_klasoru, csv_dosyasi)
     
     try:
-        # Pandas ile yerel disken veriyi oku
         veri = pd.read_csv(dosya_yolu, index_col='Date', parse_dates=True)
         
-        # Veri Doğrulama Katmanı: NaN değerleri temizle
         veri = veri.ffill().bfill()
         
         kapanis = veri['Close']
@@ -46,14 +44,12 @@ def hisse_analiz_et(csv_dosyasi):
         dusuk = veri['Low']
         hacim = veri['Volume']
         
-        # Veri dosyasinin son degistirilme tarihi
         csv_mtime = os.path.getmtime(dosya_yolu)
 
         if len(kapanis) < 50:
             return f"[UYARI] {HISSE_KODU} için yeterli veri yok, atlandı."
 
         sonuclar = {}
-        # utils ve __init__ haric tum strateji modullerini bul
         moduller = [f[:-3] for f in os.listdir(strateji_klasoru) if f.endswith('.py') and f not in ('__init__.py', 'utils.py')]
         
         veri_deposu = {
