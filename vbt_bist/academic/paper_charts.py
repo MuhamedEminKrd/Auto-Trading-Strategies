@@ -168,14 +168,14 @@ def fig3_overfit_scatter(df_stats):
 
     colors = {'DUSUK': '#4CAF50', 'ORTA': '#FF9800', 'YUKSEK': '#F44336'}
     for risk, color in colors.items():
-        mask = df_stats['Overfitting Riski'] == risk
+        mask = df_stats['Overfit Risk'] == risk
         subset = df_stats[mask]
-        ax.scatter(subset['Overfitting Skoru (%)'], subset['Test Ort Getiri (%)'],
+        ax.scatter(subset['Overfit Skor (%)'], subset['Test Ort (%)'],
                    c=color, label=f'{risk} Risk ({len(subset)})', alpha=0.7, s=60, edgecolors='white')
 
     ax.axhline(y=0, color='gray', linestyle='--', linewidth=0.8)
     ax.axvline(x=0, color='gray', linestyle='--', linewidth=0.8)
-    ax.set_xlabel('Overfitting Skoru (%)')
+    ax.set_xlabel('Overfit Skor (%)')
     ax.set_ylabel('Out-of-Sample Ortalama Getiri (%)')
     ax.set_title('Overfitting Analizi: Train-Test Performans Farki')
     ax.legend()
@@ -265,8 +265,8 @@ def fig7_pvalue_heatmap(df_stats):
     fig, ax = plt.subplots(figsize=(12, 8))
     ax.axis('off')
 
-    cols = ['Strateji', 'N (Hisse)', 'Test Ort Getiri (%)', 'Test Alfa (%)',
-            'Test Sharpe (Ort)', 't-test (test>0) p', 'Anlamli mi? (p<0.05)', 'Overfitting Riski']
+    cols = ['Strateji', 'N (Hisse)', 'Test Ort (%)', 'Test Alfa Ort (%)',
+            'Test Sharpe (Med)', 'p (alfa>0)', 'Alfa Anlamliligi', 'Overfit Risk']
     table_data = top20[cols].values.tolist()
 
     table = ax.table(cellText=table_data, colLabels=cols, loc='center', cellLoc='center')
@@ -280,8 +280,8 @@ def fig7_pvalue_heatmap(df_stats):
         table[0, j].set_text_props(color='white', fontweight='bold')
 
     # Anlamliligi renklendir
-    anlamli_col = cols.index('Anlamli mi? (p<0.05)')
-    overfit_col = cols.index('Overfitting Riski')
+    anlamli_col = cols.index('Alfa Anlamliligi')
+    overfit_col = cols.index('Overfit Risk')
     for i in range(len(table_data)):
         if table_data[i][anlamli_col] == 'EVET':
             table[i+1, anlamli_col].set_facecolor('#C8E6C9')
