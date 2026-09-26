@@ -17,6 +17,7 @@
   <a href="#-sistem-mimarisi-ve-çalışma-mekanizması">Sistem Mimarisi</a> •
   <a href="#-90-strateji-ve-8-kategori-havuzu">Strateji Havuzu</a> •
   <a href="#-proje-klasör-yapısı">Klasör Hiyerarşisi</a> •
+  <a href="#-paket-bağımlılıkları-ve-teknoloji-yığını-dependencies">Bağımlılıklar</a> •
   <a href="#-kurulum-ve-çalıştırma-quickstart">Hızlı Başlangıç</a>
 </p>
 
@@ -32,7 +33,8 @@
 5. [Akademik Metodoloji: In-Sample / Out-of-Sample Ayrımı](#-akademik-metodoloji-in-sample--out-of-sample-ayrımı)
 6. [Web Dashboard (Finansal Veri Terminali)](#-web-dashboard-finansal-veri-terminali)
 7. [Proje Klasör Yapısı](#-proje-klasör-yapısı)
-8. [Kurulum ve Çalıştırma (Quickstart)](#-kurulum-ve-çalıştırma-quickstart)
+8. [Paket Bağımlılıkları ve Teknoloji Yığını](#-paket-bağımlılıkları-ve-teknoloji-yığını-dependencies)
+9. [Kurulum ve Çalıştırma (Quickstart)](#-kurulum-ve-çalıştırma-quickstart)
 
 ---
 
@@ -229,6 +231,42 @@ Auto_Trading_Strategies/
     ├── Tam_Akademik_Makale_v2.md           # Makale Markdown metni
     └── ... (Sistem ve staj raporları)
 ```
+
+---
+
+## 📦 Paket Bağımlılıkları ve Teknoloji Yığını (Dependencies)
+
+Sistemin kararlı, hatasız ve yüksek performansla çalışabilmesi için kullanılan tüm kütüphaneler, asgari sürümleri ve projedeki kullanım amaçları aşağıda detaylandırılmıştır (`requirements.txt` ve `package.json` ile tam uyumludur):
+
+### 🐍 Python Backend & Algoritmik Analiz Motoru Bağımlılıkları
+
+| Kütüphane / Modül | Asgari Sürüm | Görev ve Projedeki Kullanım Amacı |
+|:---|:---:|:---|
+| **vectorbt** | `>=0.26.0` | Yüksek hızlı, vektörize finansal backtest motoru; C düzeyinde matris tabanlı portföy simülasyonu. |
+| **numpy** | `<2.2.0, >=1.24.0` | Çok boyutlu tensör hesaplamaları (VectorBT C-derleme uyumluluğu için sürüm sınırlandırılmıştır). |
+| **pandas** | `>=2.0.0` | OHLCV zaman serisi verilerinin işlenmesi, forward-fill temizliği ve yapılandırılmış tablo yönetimi. |
+| **scipy** | `>=1.10.0` | Ekonometrik hipotez testleri; Tek örneklem t-testi, eşleştirilmiş t-testi ve Wilcoxon testleri (`statistical_tests.py`). |
+| **yfinance** | `>=0.2.0` | Borsa İstanbul (BIST) pay senedi verilerinin temettü ve sermaye artırımı düzeltmeli (`auto_adjust=True`) çekimi. |
+| **matplotlib** | `>=3.7.0` | Akademik makale için 300 DPI çözünürlükte yayın kalitesinde kutu grafiği, ısı haritası ve dağılım çizimleri. |
+| **seaborn** | `>=0.12.0` | İstatistiksel grafik formatları, renk paletleri ve dağılım histogramları (`paper_charts.py`). |
+| **plotly** | `>=5.15.0` | Web Dashboard üzerinde al/sat noktalarını ve kümülatif getiri eğrisini interaktif gösteren grafik motoru. |
+| **kaleido** | `>=0.2.1` | Plotly interaktif grafiklerinin vektörel ve yüksek çözünürlüklü statik görsel formatlarına dönüştürülmesi. |
+| **openpyxl** | `>=3.1.0` | 8.370 çiftlik detaylı sonuçların, sektör matrislerinin ve master raporların `.xlsx` formatında derlenmesi. |
+| **python-docx** | `>=1.0.0` | APA 7 formatındaki akademik makale metninin ve 7 adet bilimsel tablonun programatik `.docx` derlemesi. |
+| **fastapi** | `>=0.100.0` | Asenkron, yüksek hızlı RESTful API servisi; dashboard veri sağlayıcısı backend motoru. |
+| **uvicorn** | `>=0.23.0` | FastAPI uygulaması için yüksek eşzamanlılıklı ASGI web sunucusu. |
+| **pydantic** | `>=2.0.0` | API istek ve yanıtları için veri doğrulama ve tip güvenliği (Type Safety). |
+
+### ⚛️ Frontend (Web Terminali) Bağımlılıkları
+
+| Paket / Kütüphane | Sürüm | Görev ve Projedeki Kullanım Amacı |
+|:---|:---:|:---|
+| **React.js** | `^19.0.0` | Bileşen tabanlı reaktif kullanıcı arayüzü mimarisi. |
+| **Vite** | `^8.0.0` | Yeni nesil yüksek hızlı ön yüz derleme ve geliştirme aracı. |
+| **@tanstack/react-table** | `^8.21.0` | 8.370 satırlık devasa tablonun çoklu sütun filtreleme, dinamik sıralama ve sayfalandırma motoru. |
+| **@tanstack/react-virtual** | `^3.14.0` | Yalnızca ekranda görünen DOM elemanlarını render ederek tarayıcıyı dondurmayan sanal DOM motoru. |
+| **xlsx** | `^0.18.0` | Kullanıcının ekranda filtrelediği verileri tarayıcı tarafında anında `.xlsx` dosyasına çeviren dışa aktarım motoru. |
+| **lucide-react** | `^1.28.0` | Bloomberg/Eikon terminali tarzı modern finansal arayüz ikon seti. |
 
 ---
 
