@@ -120,7 +120,7 @@ def hisse_analiz_et(csv_dosyasi):
                 kac_tane_calisti += 1
 
             except Exception as e:
-                # Hatayi yoksayip diger stratejiye gec (Terminali kirletmemek icin print'i kaldirdik)
+                # Hatayi yoksayip diger stratejiye gec 
                 pass
 
         # HİSSEYE ÖZEL EXCEL KAYIT

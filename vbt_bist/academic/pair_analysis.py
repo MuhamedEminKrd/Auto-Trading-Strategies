@@ -154,7 +154,7 @@ def cift_analizi(df):
             overfit = (train_ret - test_ret) / abs(train_ret) * 100
 
         # Tutarlilik skoru: train ve test arasindaki korelasyon
-        # Basit: ikisi de pozitif veya ikisi de negatifse tutarli
+        #ikisi de pozitif veya ikisi de negatifse tutarli
         tutarli = "Evet" if (train_alfa > 0 and test_alfa > 0) else "Hayir"
 
         # Test kalitesi

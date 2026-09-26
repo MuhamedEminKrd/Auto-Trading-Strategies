@@ -213,7 +213,7 @@ def fig5_drawdown_boxplot(df_tt):
     kategoriler = df_test.groupby('Kategori')['Max Drawdown (%)'].median().sort_values().index
     data = [df_test[df_test['Kategori'] == k]['Max Drawdown (%)'].dropna().values for k in kategoriler]
 
-    bp = ax.boxplot(data, labels=kategoriler, patch_artist=True, showfliers=False)
+    bp = ax.boxplot(data, tick_labels=kategoriler, patch_artist=True, showfliers=False)
     renk_paleti = ['#E3F2FD', '#BBDEFB', '#90CAF9', '#64B5F6', '#42A5F5', '#2196F3', '#1E88E5', '#1565C0']
     for i, patch in enumerate(bp['boxes']):
         patch.set_facecolor(renk_paleti[i % len(renk_paleti)])
